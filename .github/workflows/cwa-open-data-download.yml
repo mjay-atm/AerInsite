@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  REMOTE_BASE_PATH: /var/www/html/web/NCU_WATCH
+  REMOTE_BASE_PATH: ${{ secrets.REMOTE_BASE_PATH }}
 
 jobs:
   download_and_upload:
