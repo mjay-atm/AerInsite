@@ -57,8 +57,25 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+          echo "${{ secrets.JUMP_PROXY_SSH_PRIVATE_KEY }}" > ~/.ssh/id_jump_proxy_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_target_server_rsa
+          chmod 600 ~/.ssh/id_jump_proxy_rsa ~/.ssh/id_target_server_rsa
+          cat > ~/.ssh/config <<'EOF'
+          Host jump-proxy
+            HostName ${{ secrets.JUMP_PROXY_IP }}
+            User ${{ secrets.JUMP_PROXY_USER }}
+            IdentityFile ~/.ssh/id_jump_proxy_rsa
+            IdentitiesOnly yes
+
+          Host target-server
+            HostName ${{ secrets.SERVER_IP }}
+            User ${{ secrets.SERVER_USER }}
+            IdentityFile ~/.ssh/id_target_server_rsa
+            IdentitiesOnly yes
+            ProxyJump jump-proxy
+          EOF
+          chmod 600 ~/.ssh/config
+          ssh-keyscan -H "${{ secrets.JUMP_PROXY_IP }}" >> ~/.ssh/known_hosts
           ssh-keyscan -H "${{ secrets.SERVER_IP }}" >> ~/.ssh/known_hosts
 
       - name: Create remote folder and upload files
@@ -67,7 +84,7 @@ jobs:
 
           TARGET_DIR="${REMOTE_BASE_PATH}/${REMOTE_DIR}"
 
-          ssh "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}" "mkdir -p '${TARGET_DIR}'"
+          ssh target-server "mkdir -p '${TARGET_DIR}'"
 
           scp \
             download/F-C0032-031.FW50 \
@@ -75,7 +92,7 @@ jobs:
             download/F-A0010-001.json \
             download/F-C0032-022.json \
             download/F-D0047-005.json \
-            "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:${TARGET_DIR}/"
+            "target-server:${TARGET_DIR}/"
 
       - name: Show upload target
         run: echo "Uploaded files to ${REMOTE_BASE_PATH}/${REMOTE_DIR}"
