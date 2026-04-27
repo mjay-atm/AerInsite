@@ -1,0 +1,282 @@
+name: CWA Open Data Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+env:
+  REMOTE_BASE_PATH: ${{ secrets.REMOTE_BASE_PATH }}
+
+jobs:
+  download_and_upload_raw:
+    runs-on: ubuntu-22.04
+    outputs:
+      remote_dir: ${{ steps.set_timestamp.outputs.remote_dir }}
+
+    steps:
+      - name: Set timestamp (Asia/Taipei)
+        id: set_timestamp
+        run: |
+          set -euo pipefail
+          NOW=$(TZ=Asia/Taipei date +'%Y%m%d_%H%M')
+          REMOTE_DIR="CWA_$NOW"
+          echo "NOW=$NOW" >> "$GITHUB_ENV"
+          echo "REMOTE_DIR=$REMOTE_DIR" >> "$GITHUB_ENV"
+          echo "remote_dir=$REMOTE_DIR" >> "$GITHUB_OUTPUT"
+
+      - name: Download CWA files
+        env:
+          CWA_OPEN_API_TOKEN: ${{ secrets.CWA_OPEN_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p download
+
+          curl -fL "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Forecast/F-C0032-031.FW50" \
+            -o download/F-C0032-031.FW50
+
+          curl -fL "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Forecast/F-C0044-001.FW01" \
+            -o download/F-C0044-001.FW01
+
+          curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-A0010-001" \
+            --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
+            --data-urlencode "downloadType=WEB" \
+            --data-urlencode "format=JSON" \
+            -o download/F-A0010-001.json
+
+          curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-C0032-022" \
+            --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
+            --data-urlencode "downloadType=WEB" \
+            --data-urlencode "format=JSON" \
+            -o download/F-C0032-022.json
+
+          curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-D0047-005" \
+            --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
+            --data-urlencode "downloadType=WEB" \
+            --data-urlencode "format=JSON" \
+            -o download/F-D0047-005.json
+
+      - name: Prepare SSH
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.JUMP_PROXY_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_jump_proxy_rsa
+          printf '%s\n' "${{ secrets.SERVER_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_target_server_rsa
+          chmod 600 ~/.ssh/id_jump_proxy_rsa ~/.ssh/id_target_server_rsa
+          cat > ~/.ssh/config <<'EOF'
+          Host jump-proxy
+            HostName ${{ secrets.JUMP_PROXY_IP }}
+            User ${{ secrets.JUMP_PROXY_USER }}
+            IdentityFile ~/.ssh/id_jump_proxy_rsa
+            IdentitiesOnly yes
+            StrictHostKeyChecking accept-new
+
+          Host target-server
+            HostName ${{ secrets.SERVER_IP }}
+            User ${{ secrets.SERVER_USER }}
+            IdentityFile ~/.ssh/id_target_server_rsa
+            IdentitiesOnly yes
+            ProxyJump jump-proxy
+            StrictHostKeyChecking accept-new
+          EOF
+          chmod 600 ~/.ssh/config
+          touch ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Create remote folder and upload files
+        run: |
+          set -euo pipefail
+
+          TARGET_DIR="${REMOTE_BASE_PATH}/${REMOTE_DIR}"
+
+          ssh target-server "mkdir -p '${TARGET_DIR}'"
+
+          scp \
+            download/F-C0032-031.FW50 \
+            download/F-C0044-001.FW01 \
+            download/F-A0010-001.json \
+            download/F-C0032-022.json \
+            download/F-D0047-005.json \
+            "target-server:${TARGET_DIR}/"
+
+      - name: Upload downloaded files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-cwa-files
+          path: |
+            download/F-C0032-031.FW50
+            download/F-C0044-001.FW01
+            download/F-A0010-001.json
+            download/F-C0032-022.json
+            download/F-D0047-005.json
+
+      - name: Show upload target
+        run: echo "Uploaded files to ${REMOTE_BASE_PATH}/${REMOTE_DIR}"
+
+  simplify_and_upload:
+    runs-on: ubuntu-22.04
+    needs: download_and_upload_raw
+    env:
+      REMOTE_DIR: ${{ needs.download_and_upload_raw.outputs.remote_dir }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download raw files artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: raw-cwa-files
+          path: download
+
+      - name: Simplify A0010 and D0047 data
+        run: |
+          set -euo pipefail
+
+          python simplify_A0010_week.py \
+            --input download/F-A0010-001.json \
+            --output download/F-A0010-001-SP.json
+
+          python simplify_d0047_rain_wind.py \
+            --input download/F-D0047-005.json \
+            --output download/F-D0047-005-SP.json
+
+      - name: Prepare SSH
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.JUMP_PROXY_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_jump_proxy_rsa
+          printf '%s\n' "${{ secrets.SERVER_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_target_server_rsa
+          chmod 600 ~/.ssh/id_jump_proxy_rsa ~/.ssh/id_target_server_rsa
+          cat > ~/.ssh/config <<'EOF'
+          Host jump-proxy
+            HostName ${{ secrets.JUMP_PROXY_IP }}
+            User ${{ secrets.JUMP_PROXY_USER }}
+            IdentityFile ~/.ssh/id_jump_proxy_rsa
+            IdentitiesOnly yes
+            StrictHostKeyChecking accept-new
+
+          Host target-server
+            HostName ${{ secrets.SERVER_IP }}
+            User ${{ secrets.SERVER_USER }}
+            IdentityFile ~/.ssh/id_target_server_rsa
+            IdentitiesOnly yes
+            ProxyJump jump-proxy
+            StrictHostKeyChecking accept-new
+          EOF
+          chmod 600 ~/.ssh/config
+          touch ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Upload simplified files
+        run: |
+          set -euo pipefail
+
+          TARGET_DIR="${REMOTE_BASE_PATH}/${REMOTE_DIR}"
+          scp \
+            download/F-A0010-001-SP.json \
+            download/F-D0047-005-SP.json \
+            "target-server:${TARGET_DIR}/"
+
+      - name: Upload AI input bundle as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-weather-inputs
+          path: |
+            download/F-C0032-031.FW50
+            download/F-C0044-001.FW01
+            download/F-C0032-022.json
+            download/F-A0010-001-SP.json
+            download/F-D0047-005-SP.json
+
+      - name: Show upload target
+        run: echo "Uploaded files to ${REMOTE_BASE_PATH}/${REMOTE_DIR}"
+
+  ai_report_and_upload:
+    runs-on: ubuntu-22.04
+    needs:
+      - download_and_upload_raw
+      - simplify_and_upload
+    env:
+      REMOTE_DIR: ${{ needs.download_and_upload_raw.outputs.remote_dir }}
+      GEMINI_API_KEY: ${{ secrets['GEMINI_API_KEY'] }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          set -euo pipefail
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download AI input files artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: ai-weather-inputs
+          path: download
+
+      - name: Generate weather descriptions by AI
+        run: |
+          set -euo pipefail
+
+          python weather_ai_writer.py \
+            --weather-file download/F-C0032-031.FW50 \
+            download/F-C0044-001.FW01 \
+            download/F-C0032-022.json \
+            download/F-A0010-001-SP.json \
+            download/F-D0047-005-SP.json \
+            --output download/weather_descriptions_by_ai.txt
+
+      - name: Prepare SSH
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.JUMP_PROXY_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_jump_proxy_rsa
+          printf '%s\n' "${{ secrets.SERVER_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_target_server_rsa
+          chmod 600 ~/.ssh/id_jump_proxy_rsa ~/.ssh/id_target_server_rsa
+          cat > ~/.ssh/config <<'EOF'
+          Host jump-proxy
+            HostName ${{ secrets.JUMP_PROXY_IP }}
+            User ${{ secrets.JUMP_PROXY_USER }}
+            IdentityFile ~/.ssh/id_jump_proxy_rsa
+            IdentitiesOnly yes
+            StrictHostKeyChecking accept-new
+
+          Host target-server
+            HostName ${{ secrets.SERVER_IP }}
+            User ${{ secrets.SERVER_USER }}
+            IdentityFile ~/.ssh/id_target_server_rsa
+            IdentitiesOnly yes
+            ProxyJump jump-proxy
+            StrictHostKeyChecking accept-new
+          EOF
+          chmod 600 ~/.ssh/config
+          touch ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Upload AI report
+        run: |
+          set -euo pipefail
+
+          TARGET_DIR="${REMOTE_BASE_PATH}/${REMOTE_DIR}"
+          scp \
+            download/weather_descriptions_by_ai.txt \
+            "target-server:${TARGET_DIR}/"
+
+      - name: Show upload target
+        run: echo "Uploaded files to ${REMOTE_BASE_PATH}/${REMOTE_DIR}"
