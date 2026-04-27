@@ -66,6 +66,7 @@ jobs:
             User ${{ secrets.JUMP_PROXY_USER }}
             IdentityFile ~/.ssh/id_jump_proxy_rsa
             IdentitiesOnly yes
+            StrictHostKeyChecking accept-new
 
           Host target-server
             HostName ${{ secrets.SERVER_IP }}
@@ -73,10 +74,11 @@ jobs:
             IdentityFile ~/.ssh/id_target_server_rsa
             IdentitiesOnly yes
             ProxyJump jump-proxy
+            StrictHostKeyChecking accept-new
           EOF
           chmod 600 ~/.ssh/config
-          ssh-keyscan -H "${{ secrets.JUMP_PROXY_IP }}" >> ~/.ssh/known_hosts
-          ssh-keyscan -H "${{ secrets.SERVER_IP }}" >> ~/.ssh/known_hosts
+          touch ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
 
       - name: Create remote folder and upload files
         run: |
