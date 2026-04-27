@@ -57,8 +57,8 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p ~/.ssh
-          echo "${{ secrets.JUMP_PROXY_SSH_PRIVATE_KEY }}" > ~/.ssh/id_jump_proxy_rsa
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_target_server_rsa
+          printf '%s\n' "${{ secrets.JUMP_PROXY_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_jump_proxy_rsa
+          printf '%s\n' "${{ secrets.SERVER_SSH_PRIVATE_KEY }}" | tr -d '\r' > ~/.ssh/id_target_server_rsa
           chmod 600 ~/.ssh/id_jump_proxy_rsa ~/.ssh/id_target_server_rsa
           cat > ~/.ssh/config <<'EOF'
           Host jump-proxy
@@ -79,6 +79,20 @@ jobs:
           chmod 600 ~/.ssh/config
           touch ~/.ssh/known_hosts
           chmod 600 ~/.ssh/known_hosts
+
+      - name: Debug SSH connections
+        run: |
+          set -euo pipefail
+
+          ls -l ~/.ssh
+          ssh-keygen -lf ~/.ssh/id_jump_proxy_rsa
+          ssh-keygen -lf ~/.ssh/id_target_server_rsa
+
+          echo "Testing jump proxy login..."
+          ssh -v -o BatchMode=yes -o ConnectTimeout=15 jump-proxy "exit"
+
+          echo "Testing target server login through jump proxy..."
+          ssh -v -o BatchMode=yes -o ConnectTimeout=15 target-server "exit"
 
       - name: Create remote folder and upload files
         run: |
