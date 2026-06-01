@@ -8,6 +8,9 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 env:
   REMOTE_BASE_PATH: ${{ secrets.REMOTE_BASE_PATH }}
 
