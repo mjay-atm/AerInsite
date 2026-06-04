@@ -8,6 +8,9 @@ on:
 permissions:
   contents: write
 
+env:
+  OUTPUT_BRANCH: downloads_and_outputs
+
 jobs:
   download_and_upload_raw:
     runs-on: ubuntu-22.04
@@ -21,42 +24,41 @@ jobs:
           CWA_OPEN_API_TOKEN: ${{ secrets.CWA_OPEN_API_TOKEN }}
         run: |
           set -euo pipefail
-          mkdir -p CWA_OPEN_DATA
 
           curl -fL "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Forecast/F-C0032-031.FW50" \
-            -o CWA_OPEN_DATA/F-C0032-031.FW50
+            -o F-C0032-031.FW50
 
           curl -fL "https://cwaopendata.s3.ap-northeast-1.amazonaws.com/Forecast/F-C0044-001.FW01" \
-            -o CWA_OPEN_DATA/F-C0044-001.FW01
+            -o F-C0044-001.FW01
 
           curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-A0010-001" \
             --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
             --data-urlencode "downloadType=WEB" \
             --data-urlencode "format=JSON" \
-            -o CWA_OPEN_DATA/F-A0010-001.json
+            -o F-A0010-001.json
 
           curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-C0032-022" \
             --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
             --data-urlencode "downloadType=WEB" \
             --data-urlencode "format=JSON" \
-            -o CWA_OPEN_DATA/F-C0032-022.json
+            -o F-C0032-022.json
 
           curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-D0047-005" \
             --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
             --data-urlencode "downloadType=WEB" \
             --data-urlencode "format=JSON" \
-            -o CWA_OPEN_DATA/F-D0047-005.json
+            -o F-D0047-005.json
 
       - name: Upload downloaded files as artifact
         uses: actions/upload-artifact@v4
         with:
           name: raw-cwa-files
           path: |
-            CWA_OPEN_DATA/F-C0032-031.FW50
-            CWA_OPEN_DATA/F-C0044-001.FW01
-            CWA_OPEN_DATA/F-A0010-001.json
-            CWA_OPEN_DATA/F-C0032-022.json
-            CWA_OPEN_DATA/F-D0047-005.json
+            F-C0032-031.FW50
+            F-C0044-001.FW01
+            F-A0010-001.json
+            F-C0032-022.json
+            F-D0047-005.json
 
   ai_report_and_upload:
     runs-on: ubuntu-22.04
@@ -83,38 +85,38 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: raw-cwa-files
-          path: CWA_OPEN_DATA
+          path: .
 
       - name: Simplify A0010 and D0047 data
         run: |
           set -euo pipefail
 
           python simplify_A0010_week.py \
-            --input CWA_OPEN_DATA/F-A0010-001.json \
-            --output CWA_OPEN_DATA/F-A0010-001-SP.json
+            --input F-A0010-001.json \
+            --output F-A0010-001-SP.json
 
           python simplify_d0047_rain_wind.py \
-            --input CWA_OPEN_DATA/F-D0047-005.json \
-            --output CWA_OPEN_DATA/F-D0047-005-SP.json
+            --input F-D0047-005.json \
+            --output F-D0047-005-SP.json
 
       - name: Upload simplified files artifact
         uses: actions/upload-artifact@v4
         with:
           name: simplified-cwa-files
           path: |
-            CWA_OPEN_DATA/F-A0010-001-SP.json
-            CWA_OPEN_DATA/F-D0047-005-SP.json
+            F-A0010-001-SP.json
+            F-D0047-005-SP.json
 
       - name: Generate weather descriptions by AI
         run: |
           set -euo pipefail
 
           python weather_ai_writer.py \
-            --weather-file CWA_OPEN_DATA/F-C0032-031.FW50 \
-            CWA_OPEN_DATA/F-C0044-001.FW01 \
-            CWA_OPEN_DATA/F-C0032-022.json \
-            CWA_OPEN_DATA/F-A0010-001-SP.json \
-            CWA_OPEN_DATA/F-D0047-005-SP.json \
+            --weather-file F-C0032-031.FW50 \
+            F-C0044-001.FW01 \
+            F-C0032-022.json \
+            F-A0010-001-SP.json \
+            F-D0047-005-SP.json \
             --output weather_descriptions_by_ai.txt
 
       - name: Upload AI report artifact
@@ -132,18 +134,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ env.OUTPUT_BRANCH }}
+          fetch-depth: 0
 
       - name: Download raw files artifact
         uses: actions/download-artifact@v4
         with:
           name: raw-cwa-files
-          path: CWA_OPEN_DATA
+          path: .
 
       - name: Download simplified files artifact
         uses: actions/download-artifact@v4
         with:
           name: simplified-cwa-files
-          path: CWA_OPEN_DATA
+          path: .
 
       - name: Download AI report artifact
         uses: actions/download-artifact@v4
@@ -158,7 +163,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add CWA_OPEN_DATA weather_descriptions_by_ai.txt
+          git add \
+            F-C0032-031.FW50 \
+            F-C0044-001.FW01 \
+            F-A0010-001.json \
+            F-C0032-022.json \
+            F-D0047-005.json \
+            F-A0010-001-SP.json \
+            F-D0047-005-SP.json \
+            weather_descriptions_by_ai.txt
 
           if git diff --cached --quiet; then
             echo "No generated file changes to commit"
@@ -166,4 +179,4 @@ jobs:
           fi
 
           git commit -m "[skip ci] chore: update CWA open data and AI report"
-          git push
+          git push origin HEAD:${OUTPUT_BRANCH}
