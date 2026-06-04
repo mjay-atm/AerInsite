@@ -1,9 +1,6 @@
 name: CWA Open Data Pipeline
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: '0 1 * * *'
   workflow_dispatch:
@@ -86,7 +83,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: raw-cwa-files
-          path: .
+          path: CWA_OPEN_DATA
 
       - name: Simplify A0010 and D0047 data
         run: |
@@ -140,13 +137,13 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: raw-cwa-files
-          path: .
+          path: CWA_OPEN_DATA
 
       - name: Download simplified files artifact
         uses: actions/download-artifact@v4
         with:
           name: simplified-cwa-files
-          path: .
+          path: CWA_OPEN_DATA
 
       - name: Download AI report artifact
         uses: actions/download-artifact@v4
