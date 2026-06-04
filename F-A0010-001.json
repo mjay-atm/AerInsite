@@ -1,0 +1,1134 @@
+{
+ "cwaopendata": {
+  "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
+  "identifier": "472c7047-eb48-4aa1-8fc0-9be46a234889",
+  "datasetName": "一週農業氣象預報",
+  "dataid": "F-A0010-001",
+  "sender": "shchiang@cwa.gov.tw",
+  "sent": "2026-06-03T18:15:02+08:00",
+  "status": "Actual",
+  "scope": "Public",
+  "msgType": "Issue",
+  "resources": {
+   "resource": {
+    "metadata": {
+     "resourceName": "中央氣象署氣候服務_農業氣象一週預報",
+     "resourceDescription": "提供氣象署預報資料和農事建議，供農業相關單位及農民參考",
+     "language": "zh",
+     "homepage": "https://www.cwa.gov.tw/V8/C/L/agriculture.html",
+     "sources": {
+      "source": [
+       {
+        "title": "1週預報",
+        "path": "https://www.cwa.gov.tw/V8/C/W/week.html"
+       },
+       {
+        "title": "長期天氣預報-季長期天氣展望",
+        "path": "https://www.cwa.gov.tw/Data/fcst_pdf/FW15.pdf"
+       }
+      ]
+     },
+     "temporal": {
+      "issueTime": "2026-06-03T17:00:00+08:00",
+      "validTime": {
+       "startTime": "2026-06-04T00:00:00+08:00",
+       "endTime": "2026-06-11T00:00:00+08:00"
+      }
+     },
+     "weatherElements": {
+      "weatherElement": [
+       {
+        "tagName": "weather",
+        "description": "天氣描述"
+       },
+       {
+        "tagName": "temperature",
+        "description": "氣溫",
+        "units": "˚C"
+       },
+       {
+        "tagName": "agrWeatherForecasts",
+        "description": "一週農業天氣預報"
+       },
+       {
+        "tagName": "weatherProfile",
+        "description": "天氣概況"
+       },
+       {
+        "tagName": "weatherForecasts",
+        "description": "天氣預報"
+       },
+       {
+        "tagName": "agrAdvices",
+        "description": "農事建議"
+       },
+       {
+        "tagName": "degreeDay",
+        "description": "度日(植物發育時所需之有效溫度單位)",
+        "units": "GDD"
+       },
+       {
+        "tagName": "accumulatedTemperature",
+        "description": "積溫(植物發育過程中，當各生育階段有效溫度累積至一定數值時，即可完成發育。該數值即稱為此一發育階段所需的積溫。)"
+       },
+       {
+        "tagName": "cardinalTemperatures",
+        "description": "作物生長溫度區間",
+        "units": "˚C",
+        "statisticalMethods": {
+         "statisticalMethod": [
+          {
+           "methodTagName": "minimum",
+           "description": "生長最低溫"
+          },
+          {
+           "methodTagName": "maximum",
+           "description": "生長最高溫"
+          },
+          {
+           "methodTagName": "optimum",
+           "description": "生長最適溫"
+          }
+         ]
+        }
+       },
+       {
+        "tagName": "growingDays",
+        "description": "生育日數"
+       },
+       {
+        "tagName": "cropStatistics",
+        "description": "農業積溫統計"
+       }
+      ]
+     }
+    },
+    "data": {
+     "agrWeatherForecasts": {
+      "weatherProfile": "4日水氣稍增多,南部及東南部地區有局部短暫陣雨或雷雨,其他地區為多雲到晴,午後有局部短暫雷陣雨,中部以北地區並有局部短延時大雨發生的機率,清晨中部沿海地區亦有零星短暫陣雨或雷雨。5日、6日低氣壓或熱帶性低氣壓接近及影響,各地有局部短暫陣雨或雷雨,5日東南部、西半部地區及其他山區有局部大雨,尤其午後大臺北地區及中部以北山區有局部短延時豪雨發生的機率,6日山區仍有局部較大雨勢發生的機率。7日低壓帶影響,中南部地區有局部短暫陣雨或雷雨,其他地區為多雲,午後有局部短暫雷陣雨,東半部地區並有局部大雨發生的機率。8日鋒面接近及西南風影響,西半部及東北部地區有局部短暫陣雨或雷雨,午後山區並有局部大雨發生的機率,其他地區為多雲,午後有局部短暫雷陣雨。9日、10日滯留鋒面及西南風影響,西半部及東北部地區有陣雨或雷雨,並有局部大雨或豪雨發生的機率,其他地區有短暫陣雨或雷雨。5日西南部沿海及恆春半島有長浪發生的機率,請注意。",
+      "weatherForecasts": {
+       "location": [
+        {
+         "locationName": "北部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "35"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "28"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "27"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "24"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "中部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "34"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "35"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "34"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "30"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "25"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "南部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "weather": "陰短暫陣雨或雷雨",
+             "weatherid": "18"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "34"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "30"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "27"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "26"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "東北部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "weather": "陰陣雨或雷雨",
+             "weatherid": "18"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "29"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "24"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "東部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "weather": "陰短暫陣雨或雷雨",
+             "weatherid": "18"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "30"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "29"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "25"
+            }
+           ]
+          }
+         }
+        },
+        {
+         "locationName": "東南部地區",
+         "weatherElements": {
+          "Wx": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "weather": "陰時多雲短暫陣雨或雷雨",
+             "weatherid": "17"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "weather": "多雲時陰",
+             "weatherid": "5"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "weather": "陰短暫陣雨或雷雨",
+             "weatherid": "18"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "weather": "陰短暫陣雨或雷雨",
+             "weatherid": "18"
+            }
+           ]
+          },
+          "MaxT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "29"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "31"
+            }
+           ]
+          },
+          "MinT": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "temperature": "27"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "temperature": "26"
+            }
+           ]
+          }
+         }
+        }
+       ]
+      },
+      "agrAdvices": {
+       "agrForecasts": {
+        "location": [
+         {
+          "locationName": "北部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "degreeDay": "21.0",
+             "accumulatedTemperature": "21.0"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "39.0"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "57.0"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "76.0"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "95.0"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "112.5"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "degreeDay": "16.0",
+             "accumulatedTemperature": "128.5"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "中部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "degreeDay": "20.0",
+             "accumulatedTemperature": "20.0"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "degreeDay": "19.5",
+             "accumulatedTemperature": "39.5"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "58.0"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "degreeDay": "20.0",
+             "accumulatedTemperature": "78.0"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "degreeDay": "20.0",
+             "accumulatedTemperature": "98.0"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "115.5"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "133.0"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "南部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "degreeDay": "19.5",
+             "accumulatedTemperature": "19.5"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "37.5"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "56.5"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "degreeDay": "20.0",
+             "accumulatedTemperature": "76.5"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "degreeDay": "19.5",
+             "accumulatedTemperature": "96.0"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "114.0"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "132.0"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "東北部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "19.0"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "37.0"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "55.0"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "73.0"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "90.5"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "degreeDay": "17.0",
+             "accumulatedTemperature": "107.5"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "degreeDay": "16.5",
+             "accumulatedTemperature": "124.0"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "東部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "18.5"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "37.0"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "54.5"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "72.0"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "89.5"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "107.0"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "degreeDay": "17.0",
+             "accumulatedTemperature": "124.0"
+            }
+           ]
+          }
+         },
+         {
+          "locationName": "東南部地區",
+          "weatherElements": {
+           "daily": [
+            {
+             "dataDate": "2026-06-04",
+             "degreeDay": "19.5",
+             "accumulatedTemperature": "19.5"
+            },
+            {
+             "dataDate": "2026-06-05",
+             "degreeDay": "17.5",
+             "accumulatedTemperature": "37.0"
+            },
+            {
+             "dataDate": "2026-06-06",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "55.5"
+            },
+            {
+             "dataDate": "2026-06-07",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "74.5"
+            },
+            {
+             "dataDate": "2026-06-08",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "93.5"
+            },
+            {
+             "dataDate": "2026-06-09",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "112.0"
+            },
+            {
+             "dataDate": "2026-06-10",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "130.5"
+            }
+           ]
+          }
+         }
+        ]
+       },
+       "cropStatistics": {
+        "crop": {
+         "cropName": "水稻",
+         "cardinalTemperatures": {
+          "growingStage": {
+           "description": "稻作生長溫度",
+           "minimum": "10",
+           "maximum": "40"
+          }
+         },
+         "location": [
+          {
+           "locationName": "臺中地區",
+           "cropBreed": "臺農67號",
+           "statistics": {
+            "fifteenYears": {
+             "description": "一期稻作生育日數及生育期總積溫(15年平均值)",
+             "timePeriod": [
+              {
+               "description": "插秧至抽穗",
+               "growingDays": "83",
+               "accumulatedTemperature": "1067.71"
+              },
+              {
+               "description": "插秧至收穫",
+               "growingDays": "121",
+               "accumulatedTemperature": "1744.07"
+              }
+             ]
+            },
+            "thisYear": {
+             "description": "115年一期稻作積溫值 (各改良場豐歉試驗臺農67號)",
+             "dibblingDate": "-",
+             "timePeriod": {
+              "description": "插秧至本日",
+              "startDate": "-",
+              "endDate": "2026-06-02",
+              "growingDays": "-",
+              "accumulatedTemperature": "-"
+             }
+            }
+           }
+          },
+          {
+           "locationName": "高雄地區",
+           "cropBreed": "臺農67號",
+           "statistics": {
+            "fifteenYears": {
+             "description": "一期稻作生育日數及生育期總積溫(15年平均值)",
+             "timePeriod": [
+              {
+               "description": "插秧至抽穗",
+               "growingDays": "93",
+               "accumulatedTemperature": "1155.48"
+              },
+              {
+               "description": "插秧至收穫",
+               "growingDays": "124",
+               "accumulatedTemperature": "1699.05"
+              }
+             ]
+            },
+            "thisYear": {
+             "description": "115年一期稻作積溫值 (各改良場豐歉試驗臺農67號)",
+             "dibblingDate": "-",
+             "timePeriod": {
+              "description": "插秧至本日",
+              "startDate": "-",
+              "endDate": "2026-06-02",
+              "growingDays": "-",
+              "accumulatedTemperature": "-"
+             }
+            }
+           }
+          },
+          {
+           "locationName": "花蓮地區",
+           "cropBreed": "臺農67號",
+           "statistics": {
+            "fifteenYears": {
+             "description": "一期稻作生育日數及生育期總積溫(15年平均值)",
+             "timePeriod": [
+              {
+               "description": "插秧至抽穗",
+               "growingDays": "98",
+               "accumulatedTemperature": "1090.23"
+              },
+              {
+               "description": "插秧至收穫",
+               "growingDays": "136",
+               "accumulatedTemperature": "1697.62"
+              }
+             ]
+            },
+            "thisYear": {
+             "description": "115年一期稻作積溫值 (各改良場豐歉試驗臺農67號)",
+             "dibblingDate": "-",
+             "timePeriod": {
+              "description": "插秧至本日",
+              "startDate": "-",
+              "endDate": "2026-06-02",
+              "growingDays": "-",
+              "accumulatedTemperature": "-"
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

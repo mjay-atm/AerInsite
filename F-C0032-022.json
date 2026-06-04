@@ -1,0 +1,47 @@
+{
+ "cwaopendata": {
+  "@xmlns": "urn:cwb:gov:tw:cwbcommon:0.1",
+  "Identifier": "a791b37a-5fa0-11f1-abd9-0242ac110006",
+  "Sender": "fss@wfc.cwa.gov.tw",
+  "Sent": "2026-06-04T07:05:03+08:00",
+  "Status": "Actual",
+  "Scope": "Public",
+  "MsgType": "Issue",
+  "Dataid": "F-C0032-022",
+  "Source": "Weather Forecast Center",
+  "Dataset": {
+   "DatasetInfo": {
+    "DatasetDescription": "天氣小幫手",
+    "DatasetLanguage": "zh-TW",
+    "DataValueInfo": {
+     "WeatherDescription": {
+      "@description": "天氣預報綜合描述",
+      "@unit": "NA"
+     }
+    },
+    "IssueTime": "2026-06-04T07:05:03+08:00"
+   },
+   "Locations": {
+    "Location": {
+     "LocationName": "桃園市",
+     "StationID": "46705",
+     "Geocode": "68000000",
+     "WeatherElement": {
+      "ElementName": "天氣預報綜合描述",
+      "ElementValue": {
+       "WeatherDescription": [
+        "多雲午後短暫雷陣雨，天氣整體舒適，但仍有降雨機率",
+        "今日白天（04日）天氣多雲午後短暫雷陣雨，降雨機率30%，氣溫27至35度，感覺舒適至悶熱。",
+        "風浪：西南轉偏南風5至6，雷雨區陣風9級上午轉4至5，雷雨區陣風8級下午再轉5至6，雷雨區陣風9級，浪高1至2公尺，屬於小浪至中浪。",
+        "提醒您，今日氣溫舒適略熱，有短暫降雨機會，建議攜帶雨具並補充水分。",
+        "今晚明晨天氣陰時多雲短暫陣雨，降雨機率30%，氣溫27至32度，感覺舒適至悶熱。",
+        "風浪：偏南轉東北風5至6，雷雨區陣風9級晚轉6至7，雷雨區陣風10級，浪高1至2公尺，屬於小浪至中浪。",
+        "提醒您，今晚明晨氣溫舒適略熱，有短暫降雨機會，建議攜帶雨具並補充水分。"
+       ]
+      }
+     }
+    }
+   }
+  }
+ }
+}
