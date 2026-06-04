@@ -162,7 +162,11 @@ def main():
     )
 
     output_path = Path(args.output)
-    output_path.write_text(generated + "\n", encoding="utf-8")
+    output_path.write_text(generated.splitlines()[:5], encoding="utf-8")
+
+    logic_output_path = output_path.with_name(output_path.stem + "_logic" + output_path.suffix)
+    logic_explanation = "\n".join(generated.splitlines()[5:])
+    logic_output_path.write_text(logic_explanation, encoding="utf-8")
 
     print("=== 天氣描述產生完成 ===")
     print(generated)

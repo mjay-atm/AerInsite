@@ -123,7 +123,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ai-weather-report
-          path: weather_descriptions_by_ai.txt
+          path: |
+            weather_descriptions_by_ai.txt
+            weather_descriptions_by_ai_logic.txt
 
   commit_generated_files:
     runs-on: ubuntu-22.04
