@@ -162,7 +162,7 @@ def main():
     )
 
     output_path = Path(args.output)
-    output_path.write_text("".join(generated.splitlines()[:5]), encoding="utf-8")
+    output_path.write_text("\n".join(generated.splitlines()[:5]), encoding="utf-8")
 
     logic_output_path = output_path.with_name(output_path.stem + "_logic" + output_path.suffix)
     logic_explanation = "\n".join(generated.splitlines()[5:])

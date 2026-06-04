@@ -173,7 +173,8 @@ jobs:
             F-D0047-005.json \
             F-A0010-001-SP.json \
             F-D0047-005-SP.json \
-            weather_descriptions_by_ai.txt
+            weather_descriptions_by_ai.txt \
+            weather_descriptions_by_ai_logic.txt
 
           if git diff --cached --quiet; then
             echo "No generated file changes to commit"
