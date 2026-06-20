@@ -5,7 +5,7 @@
   "datasetName": "一週農業氣象預報",
   "dataid": "F-A0010-001",
   "sender": "shchiang@cwa.gov.tw",
-  "sent": "2026-06-18T18:15:02+08:00",
+  "sent": "2026-06-19T18:15:02+08:00",
   "status": "Actual",
   "scope": "Public",
   "msgType": "Issue",
@@ -29,10 +29,10 @@
       ]
      },
      "temporal": {
-      "issueTime": "2026-06-18T17:00:00+08:00",
+      "issueTime": "2026-06-19T17:00:00+08:00",
       "validTime": {
-       "startTime": "2026-06-19T00:00:00+08:00",
-       "endTime": "2026-06-26T00:00:00+08:00"
+       "startTime": "2026-06-20T00:00:00+08:00",
+       "endTime": "2026-06-27T00:00:00+08:00"
       }
      },
      "weatherElements": {
@@ -105,7 +105,7 @@
     },
     "data": {
      "agrWeatherForecasts": {
-      "weatherProfile": "19日各地大多為晴到多雲,午後大臺北、東北部地區及其他山區有局部短暫雷陣雨,山區有局部較大雨勢發生的機率。20日至25日各地大多為晴到多雲,高溫炎熱,午後山區有零星短暫雷陣雨。19日、20日東南部地區有焚風發生的機率,請注意。",
+      "weatherProfile": "20日至24日各地大多為晴到多雲,高溫炎熱,午後山區有零星短暫雷陣雨。25日、26日颱風外圍雲系影響,南部地區有局部短暫陣雨或雷雨,其他地區為多雲,午後有局部短暫雷陣雨。20日東南部地區有焚風發生的機率,請注意。23日起基隆北海岸、東半部(含蘭嶼、綠島)及恆春半島沿海地區有長浪發生的機率,請注意。",
       "weatherForecasts": {
        "location": [
         {
@@ -114,14 +114,9 @@
           "Wx": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "weather": "晴午後短暫雷陣雨",
-             "weatherid": "21"
-            },
-            {
              "dataDate": "2026-06-20",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲時晴",
+             "weatherid": "3"
             },
             {
              "dataDate": "2026-06-21",
@@ -147,16 +142,17 @@
              "dataDate": "2026-06-25",
              "weather": "晴時多雲",
              "weatherid": "2"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "weather": "多雲",
+             "weatherid": "4"
             }
            ]
           },
           "MaxT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "36"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "36"
             },
@@ -174,21 +170,21 @@
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "36"
+             "temperature": "35"
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "35"
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "32"
             }
            ]
           },
           "MinT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "24"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "24"
             },
@@ -211,6 +207,10 @@
             {
              "dataDate": "2026-06-25",
              "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "26"
             }
            ]
           }
@@ -222,14 +222,9 @@
           "Wx": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "weather": "晴時多雲",
-             "weatherid": "2"
-            },
-            {
              "dataDate": "2026-06-20",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲",
+             "weatherid": "4"
             },
             {
              "dataDate": "2026-06-21",
@@ -248,25 +243,26 @@
             },
             {
              "dataDate": "2026-06-24",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲",
+             "weatherid": "4"
             },
             {
              "dataDate": "2026-06-25",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "weather": "多雲午後短暫雷陣雨",
+             "weatherid": "22"
             }
            ]
           },
           "MaxT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "35"
-            },
-            {
              "dataDate": "2026-06-20",
-             "temperature": "35"
+             "temperature": "36"
             },
             {
              "dataDate": "2026-06-21",
@@ -286,16 +282,16 @@
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "35"
+             "temperature": "34"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "32"
             }
            ]
           },
           "MinT": {
            "daily": [
-            {
-             "dataDate": "2026-06-19",
-             "temperature": "24"
-            },
             {
              "dataDate": "2026-06-20",
              "temperature": "24"
@@ -310,14 +306,18 @@
             },
             {
              "dataDate": "2026-06-23",
-             "temperature": "24"
+             "temperature": "25"
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "24"
+             "temperature": "25"
             },
             {
              "dataDate": "2026-06-25",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-26",
              "temperature": "25"
             }
            ]
@@ -330,14 +330,9 @@
           "Wx": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "weather": "晴時多雲",
-             "weatherid": "2"
-            },
-            {
              "dataDate": "2026-06-20",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲時晴",
+             "weatherid": "3"
             },
             {
              "dataDate": "2026-06-21",
@@ -356,23 +351,24 @@
             },
             {
              "dataDate": "2026-06-24",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲",
+             "weatherid": "4"
             },
             {
              "dataDate": "2026-06-25",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲時陰短暫陣雨或雷雨",
+             "weatherid": "16"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "weather": "多雲短暫陣雨或雷雨",
+             "weatherid": "15"
             }
            ]
           },
           "MaxT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "35"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "36"
             },
@@ -390,21 +386,21 @@
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "33"
+             "temperature": "32"
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "35"
+             "temperature": "32"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "31"
             }
            ]
           },
           "MinT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "25"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "25"
             },
@@ -426,7 +422,11 @@
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "25"
+             "temperature": "26"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "26"
             }
            ]
           }
@@ -438,11 +438,6 @@
           "Wx": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "weather": "晴午後短暫雷陣雨",
-             "weatherid": "21"
-            },
-            {
              "dataDate": "2026-06-20",
              "weather": "多雲",
              "weatherid": "4"
@@ -454,8 +449,8 @@
             },
             {
              "dataDate": "2026-06-22",
-             "weather": "多雲",
-             "weatherid": "4"
+             "weather": "晴時多雲",
+             "weatherid": "2"
             },
             {
              "dataDate": "2026-06-23",
@@ -464,23 +459,24 @@
             },
             {
              "dataDate": "2026-06-24",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲",
+             "weatherid": "4"
             },
             {
              "dataDate": "2026-06-25",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "weather": "多雲時陰",
+             "weatherid": "5"
             }
            ]
           },
           "MaxT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "33"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "33"
             },
@@ -498,21 +494,21 @@
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "35"
+             "temperature": "34"
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "34"
+             "temperature": "33"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "32"
             }
            ]
           },
           "MinT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "24"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "25"
             },
@@ -534,6 +530,10 @@
             },
             {
              "dataDate": "2026-06-25",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-26",
              "temperature": "25"
             }
            ]
@@ -546,14 +546,9 @@
           "Wx": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "weather": "晴午後短暫雷陣雨",
-             "weatherid": "21"
-            },
-            {
              "dataDate": "2026-06-20",
-             "weather": "多雲時晴",
-             "weatherid": "3"
+             "weather": "多雲",
+             "weatherid": "4"
             },
             {
              "dataDate": "2026-06-21",
@@ -572,23 +567,24 @@
             },
             {
              "dataDate": "2026-06-24",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲時晴",
+             "weatherid": "3"
             },
             {
              "dataDate": "2026-06-25",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲時晴",
+             "weatherid": "3"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "weather": "多雲時晴",
+             "weatherid": "3"
             }
            ]
           },
           "MaxT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "32"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "32"
             },
@@ -606,21 +602,21 @@
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "33"
+             "temperature": "32"
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "33"
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "30"
             }
            ]
           },
           "MinT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "25"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "25"
             },
@@ -643,6 +639,10 @@
             {
              "dataDate": "2026-06-25",
              "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "26"
             }
            ]
           }
@@ -654,11 +654,6 @@
           "Wx": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "weather": "晴時多雲",
-             "weatherid": "2"
-            },
-            {
              "dataDate": "2026-06-20",
              "weather": "多雲時晴",
              "weatherid": "3"
@@ -680,23 +675,24 @@
             },
             {
              "dataDate": "2026-06-24",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲時晴",
+             "weatherid": "3"
             },
             {
              "dataDate": "2026-06-25",
-             "weather": "晴時多雲",
-             "weatherid": "2"
+             "weather": "多雲",
+             "weatherid": "4"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "weather": "多雲時晴",
+             "weatherid": "3"
             }
            ]
           },
           "MaxT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "34"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "34"
             },
@@ -714,21 +710,21 @@
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "33"
+             "temperature": "31"
             },
             {
              "dataDate": "2026-06-25",
-             "temperature": "33"
+             "temperature": "31"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "temperature": "31"
             }
            ]
           },
           "MinT": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "temperature": "25"
-            },
-            {
              "dataDate": "2026-06-20",
              "temperature": "25"
             },
@@ -742,14 +738,18 @@
             },
             {
              "dataDate": "2026-06-23",
-             "temperature": "25"
+             "temperature": "26"
             },
             {
              "dataDate": "2026-06-24",
-             "temperature": "25"
+             "temperature": "26"
             },
             {
              "dataDate": "2026-06-25",
+             "temperature": "25"
+            },
+            {
+             "dataDate": "2026-06-26",
              "temperature": "26"
             }
            ]
@@ -766,39 +766,39 @@
           "weatherElements": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
+             "dataDate": "2026-06-20",
              "degreeDay": "20.0",
              "accumulatedTemperature": "20.0"
             },
             {
-             "dataDate": "2026-06-20",
+             "dataDate": "2026-06-21",
              "degreeDay": "20.0",
              "accumulatedTemperature": "40.0"
             },
             {
-             "dataDate": "2026-06-21",
+             "dataDate": "2026-06-22",
              "degreeDay": "20.0",
              "accumulatedTemperature": "60.0"
             },
             {
-             "dataDate": "2026-06-22",
+             "dataDate": "2026-06-23",
              "degreeDay": "20.0",
              "accumulatedTemperature": "80.0"
             },
             {
-             "dataDate": "2026-06-23",
+             "dataDate": "2026-06-24",
              "degreeDay": "20.0",
              "accumulatedTemperature": "100.0"
             },
             {
-             "dataDate": "2026-06-24",
-             "degreeDay": "20.5",
-             "accumulatedTemperature": "120.5"
+             "dataDate": "2026-06-25",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "119.0"
             },
             {
-             "dataDate": "2026-06-25",
-             "degreeDay": "20.0",
-             "accumulatedTemperature": "140.5"
+             "dataDate": "2026-06-26",
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "138.0"
             }
            ]
           }
@@ -808,38 +808,38 @@
           "weatherElements": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "degreeDay": "19.5",
-             "accumulatedTemperature": "19.5"
-            },
-            {
              "dataDate": "2026-06-20",
-             "degreeDay": "19.5",
-             "accumulatedTemperature": "39.0"
+             "degreeDay": "20.0",
+             "accumulatedTemperature": "20.0"
             },
             {
              "dataDate": "2026-06-21",
              "degreeDay": "19.5",
-             "accumulatedTemperature": "58.5"
+             "accumulatedTemperature": "39.5"
             },
             {
              "dataDate": "2026-06-22",
              "degreeDay": "20.0",
-             "accumulatedTemperature": "78.5"
+             "accumulatedTemperature": "59.5"
             },
             {
              "dataDate": "2026-06-23",
-             "degreeDay": "20.0",
-             "accumulatedTemperature": "98.5"
+             "degreeDay": "20.5",
+             "accumulatedTemperature": "80.0"
             },
             {
              "dataDate": "2026-06-24",
-             "degreeDay": "19.5",
-             "accumulatedTemperature": "118.0"
+             "degreeDay": "20.0",
+             "accumulatedTemperature": "100.0"
             },
             {
              "dataDate": "2026-06-25",
-             "degreeDay": "20.0",
+             "degreeDay": "19.5",
+             "accumulatedTemperature": "119.5"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "degreeDay": "18.5",
              "accumulatedTemperature": "138.0"
             }
            ]
@@ -850,39 +850,39 @@
           "weatherElements": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "degreeDay": "20.0",
-             "accumulatedTemperature": "20.0"
-            },
-            {
              "dataDate": "2026-06-20",
              "degreeDay": "20.5",
-             "accumulatedTemperature": "40.5"
+             "accumulatedTemperature": "20.5"
             },
             {
              "dataDate": "2026-06-21",
              "degreeDay": "20.5",
-             "accumulatedTemperature": "61.0"
+             "accumulatedTemperature": "41.0"
             },
             {
              "dataDate": "2026-06-22",
              "degreeDay": "20.0",
-             "accumulatedTemperature": "81.0"
+             "accumulatedTemperature": "61.0"
             },
             {
              "dataDate": "2026-06-23",
              "degreeDay": "19.0",
-             "accumulatedTemperature": "100.0"
+             "accumulatedTemperature": "80.0"
             },
             {
              "dataDate": "2026-06-24",
-             "degreeDay": "19.0",
-             "accumulatedTemperature": "119.0"
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "98.5"
             },
             {
              "dataDate": "2026-06-25",
-             "degreeDay": "20.0",
-             "accumulatedTemperature": "139.0"
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "117.5"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "136.0"
             }
            ]
           }
@@ -892,39 +892,39 @@
           "weatherElements": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
-             "degreeDay": "18.5",
-             "accumulatedTemperature": "18.5"
-            },
-            {
              "dataDate": "2026-06-20",
              "degreeDay": "19.0",
-             "accumulatedTemperature": "37.5"
+             "accumulatedTemperature": "19.0"
             },
             {
              "dataDate": "2026-06-21",
              "degreeDay": "19.0",
-             "accumulatedTemperature": "56.5"
+             "accumulatedTemperature": "38.0"
             },
             {
              "dataDate": "2026-06-22",
              "degreeDay": "19.0",
-             "accumulatedTemperature": "75.5"
+             "accumulatedTemperature": "57.0"
             },
             {
              "dataDate": "2026-06-23",
              "degreeDay": "19.5",
-             "accumulatedTemperature": "95.0"
+             "accumulatedTemperature": "76.5"
             },
             {
              "dataDate": "2026-06-24",
-             "degreeDay": "20.0",
-             "accumulatedTemperature": "115.0"
+             "degreeDay": "19.5",
+             "accumulatedTemperature": "96.0"
             },
             {
              "dataDate": "2026-06-25",
-             "degreeDay": "19.5",
-             "accumulatedTemperature": "134.5"
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "115.0"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "133.5"
             }
            ]
           }
@@ -934,39 +934,39 @@
           "weatherElements": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
+             "dataDate": "2026-06-20",
              "degreeDay": "18.5",
              "accumulatedTemperature": "18.5"
             },
             {
-             "dataDate": "2026-06-20",
+             "dataDate": "2026-06-21",
              "degreeDay": "18.5",
              "accumulatedTemperature": "37.0"
             },
             {
-             "dataDate": "2026-06-21",
+             "dataDate": "2026-06-22",
              "degreeDay": "18.5",
              "accumulatedTemperature": "55.5"
             },
             {
-             "dataDate": "2026-06-22",
+             "dataDate": "2026-06-23",
              "degreeDay": "18.5",
              "accumulatedTemperature": "74.0"
             },
             {
-             "dataDate": "2026-06-23",
+             "dataDate": "2026-06-24",
              "degreeDay": "18.5",
              "accumulatedTemperature": "92.5"
             },
             {
-             "dataDate": "2026-06-24",
-             "degreeDay": "19.0",
-             "accumulatedTemperature": "111.5"
+             "dataDate": "2026-06-25",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "110.5"
             },
             {
-             "dataDate": "2026-06-25",
-             "degreeDay": "19.0",
-             "accumulatedTemperature": "130.5"
+             "dataDate": "2026-06-26",
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "128.5"
             }
            ]
           }
@@ -976,39 +976,39 @@
           "weatherElements": {
            "daily": [
             {
-             "dataDate": "2026-06-19",
+             "dataDate": "2026-06-20",
              "degreeDay": "19.5",
              "accumulatedTemperature": "19.5"
             },
             {
-             "dataDate": "2026-06-20",
-             "degreeDay": "19.5",
-             "accumulatedTemperature": "39.0"
-            },
-            {
              "dataDate": "2026-06-21",
              "degreeDay": "19.0",
-             "accumulatedTemperature": "58.0"
+             "accumulatedTemperature": "38.5"
             },
             {
              "dataDate": "2026-06-22",
              "degreeDay": "19.5",
-             "accumulatedTemperature": "77.5"
+             "accumulatedTemperature": "58.0"
             },
             {
              "dataDate": "2026-06-23",
-             "degreeDay": "18.5",
-             "accumulatedTemperature": "96.0"
+             "degreeDay": "19.0",
+             "accumulatedTemperature": "77.0"
             },
             {
              "dataDate": "2026-06-24",
-             "degreeDay": "19.0",
-             "accumulatedTemperature": "115.0"
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "95.5"
             },
             {
              "dataDate": "2026-06-25",
-             "degreeDay": "19.5",
-             "accumulatedTemperature": "134.5"
+             "degreeDay": "18.0",
+             "accumulatedTemperature": "113.5"
+            },
+            {
+             "dataDate": "2026-06-26",
+             "degreeDay": "18.5",
+             "accumulatedTemperature": "132.0"
             }
            ]
           }
@@ -1051,7 +1051,7 @@
              "timePeriod": {
               "description": "插秧至本日",
               "startDate": "-",
-              "endDate": "2026-06-17",
+              "endDate": "2026-06-18",
               "growingDays": "-",
               "accumulatedTemperature": "-"
              }
@@ -1083,7 +1083,7 @@
              "timePeriod": {
               "description": "插秧至本日",
               "startDate": "-",
-              "endDate": "2026-06-17",
+              "endDate": "2026-06-18",
               "growingDays": "-",
               "accumulatedTemperature": "-"
              }
@@ -1115,7 +1115,7 @@
              "timePeriod": {
               "description": "插秧至本日",
               "startDate": "-",
-              "endDate": "2026-06-17",
+              "endDate": "2026-06-18",
               "growingDays": "-",
               "accumulatedTemperature": "-"
              }
