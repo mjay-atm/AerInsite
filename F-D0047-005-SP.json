@@ -8,7 +8,7 @@
       "StartTime": "2026-07-05T00:00:00+08:00",
       "EndTime": "2026-07-09T00:00:00+08:00"
     },
-    "update_time": "2026-07-04T22:33:42+08:00"
+    "update_time": "2026-07-05T01:46:17+08:00"
   },
   "focus": [
     "降雨",
@@ -18,8 +18,8 @@
     {
       "date": "2026-07-05",
       "rain": {
-        "city_max_pop": 50.0,
-        "city_avg_pop": 8.65
+        "city_max_pop": 70.0,
+        "city_avg_pop": 10.77
       },
       "wind": {
         "city_max_speed_mps": 7.0,
@@ -31,7 +31,7 @@
       "date": "2026-07-06",
       "rain": {
         "city_max_pop": 50.0,
-        "city_avg_pop": 9.04
+        "city_avg_pop": 10.58
       },
       "wind": {
         "city_max_speed_mps": 7.0,
@@ -68,15 +68,24 @@
     "rain": [
       {
         "location_name": "復興區",
-        "max_pop": 50.0,
+        "max_pop": 70.0,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
-          "pop": 50.0
+          "pop": 70.0
         }
       },
       {
         "location_name": "大溪區",
+        "max_pop": 40.0,
+        "peak_period": {
+          "start_time": "2026-07-05T15:00:00+08:00",
+          "end_time": "2026-07-05T18:00:00+08:00",
+          "pop": 40.0
+        }
+      },
+      {
+        "location_name": "龜山區",
         "max_pop": 40.0,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
@@ -97,17 +106,8 @@
         "location_name": "中壢區",
         "max_pop": 30.0,
         "peak_period": {
-          "start_time": "2026-07-07T15:00:00+08:00",
-          "end_time": "2026-07-07T18:00:00+08:00",
-          "pop": 30.0
-        }
-      },
-      {
-        "location_name": "蘆竹區",
-        "max_pop": 30.0,
-        "peak_period": {
-          "start_time": "2026-07-07T15:00:00+08:00",
-          "end_time": "2026-07-07T18:00:00+08:00",
+          "start_time": "2026-07-05T15:00:00+08:00",
+          "end_time": "2026-07-05T18:00:00+08:00",
           "pop": 30.0
         }
       }
@@ -179,7 +179,7 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 7.81,
+        "avg_pop": 8.75,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
@@ -207,10 +207,10 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 6.88,
+        "avg_pop": 7.81,
         "peak_period": {
-          "start_time": "2026-07-07T15:00:00+08:00",
-          "end_time": "2026-07-07T18:00:00+08:00",
+          "start_time": "2026-07-05T15:00:00+08:00",
+          "end_time": "2026-07-05T18:00:00+08:00",
           "pop": 30.0
         }
       },
@@ -235,7 +235,7 @@
       },
       "rain": {
         "max_pop": 40.0,
-        "avg_pop": 10.0,
+        "avg_pop": 11.25,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
@@ -263,7 +263,7 @@
       },
       "rain": {
         "max_pop": 20.0,
-        "avg_pop": 5.94,
+        "avg_pop": 6.56,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
@@ -291,10 +291,10 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 6.25,
+        "avg_pop": 7.19,
         "peak_period": {
-          "start_time": "2026-07-07T15:00:00+08:00",
-          "end_time": "2026-07-07T18:00:00+08:00",
+          "start_time": "2026-07-05T15:00:00+08:00",
+          "end_time": "2026-07-05T18:00:00+08:00",
           "pop": 30.0
         }
       },
@@ -346,12 +346,12 @@
         "lon": 121.32969
       },
       "rain": {
-        "max_pop": 30.0,
-        "avg_pop": 8.44,
+        "max_pop": 40.0,
+        "avg_pop": 9.69,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
-          "pop": 30.0
+          "pop": 40.0
         }
       },
       "wind": {
@@ -375,7 +375,7 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 9.06,
+        "avg_pop": 10.31,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
@@ -403,7 +403,7 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 8.44,
+        "avg_pop": 9.69,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
@@ -431,7 +431,7 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 6.25,
+        "avg_pop": 6.88,
         "peak_period": {
           "start_time": "2026-07-07T15:00:00+08:00",
           "end_time": "2026-07-07T18:00:00+08:00",
@@ -459,7 +459,7 @@
       },
       "rain": {
         "max_pop": 20.0,
-        "avg_pop": 5.94,
+        "avg_pop": 6.25,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
@@ -514,12 +514,12 @@
         "lon": 121.34341
       },
       "rain": {
-        "max_pop": 50.0,
-        "avg_pop": 12.5,
+        "max_pop": 70.0,
+        "avg_pop": 15.0,
         "peak_period": {
           "start_time": "2026-07-05T15:00:00+08:00",
           "end_time": "2026-07-05T18:00:00+08:00",
-          "pop": 50.0
+          "pop": 70.0
         }
       },
       "wind": {

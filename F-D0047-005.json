@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "2f27c834-4541-4e5b-ab4f-1a197dd79923",
+  "Identifier": "cc197895-dc09-4844-83ba-d751c954b326",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-07-04T22:33:42+08:00",
+  "Sent": "2026-07-05T01:46:17+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-07-05T00:00:00+08:00",
      "EndTime": "2026-07-09T00:00:00+08:00"
     },
-    "Update": "2026-07-04T22:33:42+08:00"
+    "Update": "2026-07-05T01:46:17+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
@@ -2326,14 +2326,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -2816,14 +2816,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏29至30度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度85至86%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至30度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度85至86%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度87至90%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度87至90%。"
           }
          },
          {
@@ -5226,7 +5226,7 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -5240,14 +5240,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "10"
           }
          },
          {
@@ -5460,8 +5460,8 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "多雲",
-           "WeatherCode": "04"
+           "Weather": "午後短暫雷陣雨",
+           "WeatherCode": "15"
           }
          },
          {
@@ -5716,7 +5716,7 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏32至33度。悶熱。西北風 平均風速2-3級(每秒5公尺)。相對濕度69至76%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至33度。悶熱。西北風 平均風速2-3級(每秒5公尺)。相對濕度69至76%。"
           }
          },
          {
@@ -5730,14 +5730,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度85至87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度85至87%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度88至90%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度88至90%。"
           }
          },
          {
@@ -8133,7 +8133,7 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -8154,14 +8154,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -8366,8 +8366,8 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "Weather": "多雲",
-           "WeatherCode": "04"
+           "Weather": "午後短暫雷陣雨",
+           "WeatherCode": "15"
           }
          },
          {
@@ -8623,7 +8623,7 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏33度。悶熱。西北風 平均風速1-2級(每秒3公尺)。相對濕度64至67%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏33度。悶熱。西北風 平均風速1-2級(每秒3公尺)。相對濕度64至67%。"
           }
          },
          {
@@ -8644,14 +8644,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏27至28度。悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度90至91%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至28度。悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度90至91%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至27度。舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度92至94%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至27度。舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度92至94%。"
           }
          },
          {
@@ -11068,14 +11068,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "10"
           }
          },
          {
@@ -11558,14 +11558,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏27度。舒適至悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至90%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27度。舒適至悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至90%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至27度。舒適。東南風 平均風速1-2級(每秒2公尺)。相對濕度91%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東南風 平均風速1-2級(每秒2公尺)。相對濕度91%。"
           }
          },
          {
@@ -13968,7 +13968,7 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -13982,14 +13982,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "10"
           }
          },
          {
@@ -14202,8 +14202,8 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "多雲",
-           "WeatherCode": "04"
+           "Weather": "午後短暫雷陣雨",
+           "WeatherCode": "15"
           }
          },
          {
@@ -14458,7 +14458,7 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏32至33度。悶熱。西北風 平均風速2-3級(每秒5公尺)。相對濕度68至76%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至33度。悶熱。西北風 平均風速2-3級(每秒5公尺)。相對濕度68至76%。"
           }
          },
          {
@@ -14472,14 +14472,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度84至86%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度84至86%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度87至90%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度87至90%。"
           }
          },
          {
@@ -19796,7 +19796,7 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "30"
+           "ProbabilityOfPrecipitation": "40"
           }
          },
          {
@@ -19810,14 +19810,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -20286,7 +20286,7 @@
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至34度。悶熱。西北風 平均風速2-3級(每秒4公尺)。相對濕度65至76%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率40%。溫度攝氏32至34度。悶熱。西北風 平均風速2-3級(每秒4公尺)。相對濕度65至76%。"
           }
          },
          {
@@ -20300,14 +20300,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度86至87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度86至87%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至91%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至91%。"
           }
          },
          {
@@ -22703,7 +22703,7 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -22724,14 +22724,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -23193,7 +23193,7 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率10%。溫度攝氏33度。悶熱。西北風 平均風速1-2級(每秒3公尺)。相對濕度61至63%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏33度。悶熱。西北風 平均風速1-2級(每秒3公尺)。相對濕度61至63%。"
           }
          },
          {
@@ -23214,14 +23214,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏28度。悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度87至89%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度87至89%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27度。舒適至悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度90至92%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27度。舒適至悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度90至92%。"
           }
          },
          {
@@ -25617,7 +25617,7 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -25638,14 +25638,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -26107,7 +26107,7 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏32至33度。悶熱。西北風 平均風速1-2級(每秒3公尺)。相對濕度64至67%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏32至33度。悶熱。西北風 平均風速1-2級(每秒3公尺)。相對濕度64至67%。"
           }
          },
          {
@@ -26128,14 +26128,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏27度。舒適至悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度89至91%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27度。舒適至悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度89至91%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26度。舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度91至93%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度91至93%。"
           }
          },
          {
@@ -28552,14 +28552,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "10"
           }
          },
          {
@@ -29042,14 +29042,14 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏28至29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度87至88%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度87至88%。"
           }
          },
          {
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至28度。舒適至悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至90%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏27至28度。舒適至悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至90%。"
           }
          },
          {
@@ -31466,7 +31466,7 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "10"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -31956,7 +31956,7 @@
           "StartTime": "2026-07-05T21:00:00+08:00",
           "EndTime": "2026-07-06T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒3公尺)。相對濕度88至89%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒3公尺)。相對濕度88至89%。"
           }
          },
          {
@@ -37273,21 +37273,21 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "50"
+           "ProbabilityOfPrecipitation": "70"
           }
          },
          {
           "StartTime": "2026-07-05T18:00:00+08:00",
           "EndTime": "2026-07-05T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "50"
           }
          },
          {
@@ -37301,7 +37301,7 @@
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "0"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -37506,8 +37506,8 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "午後短暫雷陣雨",
+           "WeatherCode": "15"
           }
          },
          {
@@ -37522,8 +37522,8 @@
           "StartTime": "2026-07-05T18:00:00+08:00",
           "EndTime": "2026-07-05T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "多雲",
-           "WeatherCode": "04"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -37763,21 +37763,21 @@
           "StartTime": "2026-07-05T12:00:00+08:00",
           "EndTime": "2026-07-05T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至31度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度74至76%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏30至31度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度74至76%。"
           }
          },
          {
           "StartTime": "2026-07-05T15:00:00+08:00",
           "EndTime": "2026-07-05T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率50%。溫度攝氏28至30度。悶熱。西北風 平均風速1-2級(每秒2公尺)。相對濕度80至90%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率70%。溫度攝氏28至30度。悶熱。西北風 平均風速1-2級(每秒2公尺)。相對濕度80至90%。"
           }
          },
          {
           "StartTime": "2026-07-05T18:00:00+08:00",
           "EndTime": "2026-07-05T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏25至27度。舒適至悶熱。西北風 平均風速<= 1級(每秒1公尺)。相對濕度91至95%。"
+           "WeatherDescription": "短暫陣雨。降雨機率50%。溫度攝氏25至27度。舒適至悶熱。西北風 平均風速<= 1級(每秒1公尺)。相對濕度91至95%。"
           }
          },
          {
@@ -37791,7 +37791,7 @@
           "StartTime": "2026-07-06T00:00:00+08:00",
           "EndTime": "2026-07-06T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至24度。舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度95%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏23至24度。舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度95%。"
           }
          },
          {
