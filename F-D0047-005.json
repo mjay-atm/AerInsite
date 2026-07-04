@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "c3630f88-e87d-47d5-adc2-40f95b4916fa",
+  "Identifier": "4faaea3d-746d-463b-85de-04f741edeffb",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-07-04T17:07:08+08:00",
+  "Sent": "2026-07-04T20:41:09+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-07-04T18:00:00+08:00",
      "EndTime": "2026-07-08T18:00:00+08:00"
     },
-    "Update": "2026-07-04T17:07:08+08:00"
+    "Update": "2026-07-04T20:41:09+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
@@ -37252,7 +37252,7 @@
           "StartTime": "2026-07-04T21:00:00+08:00",
           "EndTime": "2026-07-05T00:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -37482,8 +37482,8 @@
           "StartTime": "2026-07-04T21:00:00+08:00",
           "EndTime": "2026-07-05T00:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -37742,7 +37742,7 @@
           "StartTime": "2026-07-04T21:00:00+08:00",
           "EndTime": "2026-07-05T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏24至25度。舒適。西南風 平均風速<= 1級(每秒1公尺)。相對濕度94至95%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏24至25度。舒適。西南風 平均風速<= 1級(每秒1公尺)。相對濕度94至95%。"
           }
          },
          {
