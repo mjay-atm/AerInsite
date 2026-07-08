@@ -5,16 +5,14 @@ on:
       branches:
         - feature/typhoon-pipeline
   schedule:
-    # 颱風季時可以開啟：每 3 小時執行一次 (UTC 0, 3, 6, 9, 12, 15, 18, 21)
-    # 台灣時間為 08, 11, 14, 17, 20, 23, 02, 05，剛好契合氣象署警報更新頻率
-    - cron: '0 */3 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 env:
-  OUTPUT_BRANCH: typhoon_outputs
+  OUTPUT_BRANCH: downloads_and_outputs
 
 jobs:
   download_raw_typhoon:
