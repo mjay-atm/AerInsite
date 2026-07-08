@@ -31,7 +31,7 @@ jobs:
           set -euo pipefail
 
           # 抓取 W-C0034-001 颱風警報單 JSON 檔
-          curl -fL -G "https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/W-C0034-001" \
+          curl -fL -G "https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-001" \
             --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
             --data-urlencode "downloadType=WEB" \
             --data-urlencode "format=JSON" \
