@@ -102,6 +102,26 @@ jobs:
           path: |
             typhoon_warning_report_t.txt
 
+      - name: Get Current Date (Taiwan Time)
+        id: get_date
+        run: |
+          # 預設 GitHub 伺服器是 UTC 時間，加上 TZ 確保抓到正確的台灣日期
+          echo "today=$(TZ=Asia/Taipei date +'%Y%m%d')" >> $GITHUB_OUTPUT
+
+      - name: Deploy Only AI Report to Lab Server via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.LAB_SERVER_USER }}
+          host: ${{ secrets.LAB_SERVER_HOST }}
+          port: ${{ secrets.LAB_SERVER_PORT }}
+          ssh_private_key: ${{ secrets.LAB_SERVER_SSH_KEY }}
+          
+          # 指定只傳送這一個檔案
+          local_path: './typhoon_warning_report_t.txt'
+          
+          # 👈 動態拼接日期變數（請將前面改成你實驗室的基礎絕對路徑）
+          remote_path: '/mnt/c/Users/RadarLab/Documents/taoyuan_weather/${{ steps.get_date.outputs.today }}/'
+
   commit_generated_files:
     runs-on: ubuntu-22.04
     needs:
