@@ -72,7 +72,7 @@ jobs:
             -   name: Generate Typhoon Taoyuan Report
                 run: |
                     set -euo pipefail
-                    python generate_typhoon_taoyuan_report.py \
+                    python generate_typhoon_taoyuan_template.py \
                         --input W-C0034-005.json \
                         --output typhoon_taoyuan_report.txt
             
