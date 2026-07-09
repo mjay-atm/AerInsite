@@ -31,14 +31,15 @@ jobs:
                     set -euo pipefail
 
                     # 抓取 W-C0034-005 颱風消息與警報-熱帶氣旋路徑 JSON 檔
-                    curl -fL -G "https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-005" \
-                    --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
-                    --data-urlencode "downloadType=WEB" \
-                    --data-urlencode "format=JSON" \
-                    --data-urlencode "Dataset=AnalysisData" \
-                    --data-urlencode "timeFrom=${{ steps.get_timestamp.outputs.T_ini }}%3A00%3A00" \
-                    --data-urlencode "timeTo=${{ steps.get_timestamp.outputs.T_end }}%3A00%3A00" \
-                    -o W-C0034-005.json
+                    url="https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-005"
+                    Authorization=${CWA_OPEN_API_TOKEN}
+                    Dataset=AnalysisData
+                    timeFrom=${{ steps.get_timestamp.outputs.T_ini }}%3A00%3A00
+                    timeTo=${{ steps.get_timestamp.outputs.T_end }}%3A00%3A00
+                    curl -X 'GET' "${url}?Authorization=${Authorization}&Dataset=${Dataset}&timeFrom=${timeFrom}&timeTo=${timeTo}" \
+                        -H 'accept: application/json' \
+                        -o W-C0034-005.json
+                    
             -   name: Upload downloaded files as artifact
                 uses: actions/upload-artifact@v4
                 with:
