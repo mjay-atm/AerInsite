@@ -8,7 +8,7 @@ from google import genai
 def parse_args():
     parser = argparse.ArgumentParser(description="使用 Google Gemini 依 005 精簡資料產生描述報告")
     parser.add_argument("--typhoon-file", required=True, help="精簡後的 005 JSON 檔案路徑")
-    parser.add_argument("--model", default="gemini-2.5-flash", help="模型名稱") # 👈 已修復為新版預設模型
+    parser.add_argument("--model", default="gemini-3.1-flash-lite", help="模型名稱") # 👈 已修復為新版預設模型
     parser.add_argument("--api-key", default=None, help="Gemini API Key")
     parser.add_argument("--output", default="typhoon_warning_report_t.txt", help="輸出檔案路徑")
     return parser.parse_args()
@@ -35,7 +35,7 @@ def main():
 
     api_key = args.api_key or os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("找不到 API Key，請設定環境變數 GEMINI_API_KEY。")
+        raise ValueError("找不到 API Key，請設定環境變數 GEMINI_API_KEY")
 
     file_path = Path(args.typhoon_file)
     if not file_path.exists():
@@ -71,7 +71,7 @@ def main():
 
     print("=== 005 新版颱風簡報產生完成 ===")
     print(generated_text)
-    print(f"\n📁 報告已成功輸出至: {output_path.resolve()}")
+    print(f"\n報告已成功輸出至: {output_path.resolve()}")
 
 if __name__ == "__main__":
     main()

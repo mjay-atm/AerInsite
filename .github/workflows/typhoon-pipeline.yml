@@ -28,7 +28,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          # 抓取 W-C0034-005 颱風警報單 JSON 檔
+          # 抓取 W-C0034-001 颱風警報單 JSON 檔
+          curl -fL -G "https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-001" \
+            --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
+            --data-urlencode "downloadType=WEB" \
+            --data-urlencode "format=JSON" \
+            -o W-C0034-001.json
+          # 抓取 W-C0034-005 颱風路徑 JSON 檔
           curl -fL -G "https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-005" \
             --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
             --data-urlencode "downloadType=WEB" \
@@ -40,13 +46,14 @@ jobs:
         with:
           name: raw-cwa_typhoon-files
           path: |
+            W-C0034-001.json
             W-C0034-005.json
 
   ai_report_and_upload:
     runs-on: ubuntu-22.04
     needs: download_raw_typhoon
     env:
-      GEMINI_API_KEY: ${{ secrets['GEMINI_API_KEY_RAMELA'] }}
+      GEMINI_API_KEY: ${{ secrets['GEMINI_API_KEY'] }}
 
     steps:
       - name: Checkout repository
@@ -73,6 +80,10 @@ jobs:
         run: |
           set -euo pipefail
 
+          python simplify_typhoon_data.py \
+            --input W-C0034-001.json \
+            --output W-C0034-001-SP.json
+
           python simplify_typhoon_data_t.py \
             --input W-C0034-005.json \
             --output W-C0034-005-SP.json
@@ -82,23 +93,27 @@ jobs:
         with:
           name: simplified-cwa_typhoon-files
           path: |
+            W-C0034-001-SP.json
             W-C0034-005-SP.json
 
       - name: Generate Typhoon descriptions by AI
         run: |
           set -euo pipefail
 
+          python typhoon_ai_writer.py \
+            --typhoon-file W-C0034-001-SP.json \
+            --output typhoon_warning_report.txt
+
           python typhoon_ai_writer_t.py \
             --typhoon-file W-C0034-005-SP.json \
-            --output typhoon_warning_report_t.txt \
-            --model gemini-3.5-flash
+            --output typhoon_warning_report_t.txt
 
       - name: Upload AI report artifact
         uses: actions/upload-artifact@v4
         with:
           name: ai-typhoon-report
           path: |
-            typhoon_warning_report_t.txt
+            typhoon_warning_report*.txt
 
   commit_generated_files:
     runs-on: ubuntu-22.04
@@ -138,10 +153,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            W-C0034-005.json \
-            W-C0034-005-SP.json \
-            typhoon_warning_report_t.txt
+          git add W-C0034-*.json typhoon_warning_report*.txt
 
           if git diff --cached --quiet; then
             echo "No generated file changes to commit"
