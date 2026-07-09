@@ -33,9 +33,9 @@ def main():
     load_dotenv()
     args = parse_args()
 
-    api_key = args.api_key or os.getenv("GEMINI_API_KEY_RAMELA")
+    api_key = args.api_key or os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("找不到 API Key，請設定環境變數 GEMINI_API_KEY_RAMELA。")
+        raise ValueError("找不到 API Key，請設定環境變數 GEMINI_API_KEY")
 
     file_path = Path(args.typhoon_file)
     if not file_path.exists():

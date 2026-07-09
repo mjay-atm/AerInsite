@@ -162,9 +162,9 @@ def main():
     load_dotenv()
     args = parse_args()
 
-    api_key = args.api_key or os.getenv("GEMINI_API_KEY_RAMELA")
+    api_key = args.api_key or os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("找不到 API Key，請使用 --api-key 或設定環境變數 GEMINI_API_KEY_RAMELA。")
+        raise ValueError("找不到 API Key，請使用 --api-key 或設定環境變數 GEMINI_API_KEY")
 
     typhoon_data_text = read_typhoon_input(args.typhoon_text, args.typhoon_file, args.typhoon_dir)
     prompt = build_prompt(typhoon_data_text, args.location, args.language, args.style)
