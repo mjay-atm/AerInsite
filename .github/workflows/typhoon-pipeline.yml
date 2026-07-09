@@ -53,7 +53,7 @@ jobs:
     runs-on: ubuntu-22.04
     needs: download_raw_typhoon
     env:
-      GEMINI_API_KEY: ${{ secrets['GEMINI_API_KEY_RAMELA'] }}
+      GEMINI_API_KEY: ${{ secrets['GEMINI_API_KEY'] }}
 
     steps:
       - name: Checkout repository
