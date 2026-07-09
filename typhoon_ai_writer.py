@@ -12,7 +12,7 @@ def parse_args():
     parser.add_argument("--typhoon-text", default=None, help="直接提供颱風資料文本")
     parser.add_argument("--typhoon-file", nargs="+", default=None, help="颱風資料檔案路徑 (支援 W-C0034-001 JSON)")
     parser.add_argument("--typhoon-dir", default=None, help="颱風資料資料夾路徑，會自動讀取檔案")
-    parser.add_argument("--model", default="gemini-2.0-flash", help="模型名稱")
+    parser.add_argument("--model", default="gemini-3.1-flash-lite", help="模型名稱")
     parser.add_argument("--api-key", default=None, help="Gemini API Key；未提供時改讀環境變數 GEMINI_API_KEY")
     parser.add_argument("--location", default="桃園市", help="地區名稱")
     parser.add_argument("--language", default="繁體中文", help="輸出語言")
