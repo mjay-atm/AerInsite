@@ -1,0 +1,120 @@
+name: Get Typhoon Info
+
+on:
+    schedule:
+      - cron: '0 0,6,12,18 * * *'
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+env:
+    OUTPUT_BRANCH: downloads_and_outputs
+
+jobs:
+    download_W-C0034-005:
+        runs-on: ubuntu-22.04
+        steps:
+            -   name: Checkout repository
+                uses: actions/checkout@v4
+
+            -   name: Get timestemp
+                id: get_timestamp
+                run: |
+                    echo "T_end=$(date -u +'%Y-%m-%dT%H')" >> $GITHUB_OUTPUT
+                    echo "T_ini=$(date -u -d '6 hours ago' +'%Y-%m-%dT%H')" >> $GITHUB_OUTPUT
+            
+            -   name: Download CWA Typhoon Track
+                env:
+                    CWA_OPEN_API_TOKEN: ${{ secrets.CWA_OPEN_API_TOKEN_HYH }}
+                run: |
+                    set -euo pipefail
+
+                    # 抓取 W-C0034-005 颱風消息與警報-熱帶氣旋路徑 JSON 檔
+                    curl -fL -G "https://opendata.cwa.gov.tw/api/v1/rest/datastore/W-C0034-005" \
+                    --data-urlencode "Authorization=${CWA_OPEN_API_TOKEN}" \
+                    --data-urlencode "downloadType=WEB" \
+                    --data-urlencode "format=JSON" \
+                    --data-urlencode "Dataset=AnalysisData" \
+                    --data-urlencode "timeFrom=${{ steps.get_timestamp.outputs.T_ini }}%3A00%3A00" \
+                    --data-urlencode "timeTo=${{ steps.get_timestamp.outputs.T_end }}%3A00%3A00" \
+                    -o W-C0034-005.json
+            -   name: Upload downloaded files as artifact
+                uses: actions/upload-artifact@v4
+                with:
+                    name: raw-cwa_typhoon-files
+                    path: W-C0034-005.json
+    
+    generate_typhoon_taoyuan_report:
+        runs-on: ubuntu-22.04
+        needs: download_W-C0034-005
+        
+        steps:
+            -   name: Checkout repository
+                uses: actions/checkout@v4
+
+            -   name: Set up Python
+                uses: actions/setup-python@v5
+                with:
+                    python-version: '3.11'
+
+            -   name: Install dependencies
+                run: |
+                    python -m pip install --upgrade pip
+                    pip install -r requirements.txt
+
+            -   name: Download artifact
+                uses: actions/download-artifact@v4
+                with:
+                    name: raw-cwa_typhoon-files
+                    path: .
+
+            -   name: Generate Typhoon Taoyuan Report
+                run: |
+                    set -euo pipefail
+                    python generate_typhoon_taoyuan_report.py \
+                        --input W-C0034-005.json \
+                        --output typhoon_taoyuan_report.txt
+            
+            -   name: Upload generated report as artifact
+                uses: actions/upload-artifact@v4
+                with:
+                    name: typhoon_taoyuan_report
+                    path: typhoon_taoyuan_report.txt
+    
+    commit_and_push:
+        runs-on: ubuntu-22.04
+        needs: generate_typhoon_taoyuan_report
+        
+        steps:
+            -   name: Checkout repository
+                uses: actions/checkout@v4
+                with:
+                    ref: ${{ env.OUTPUT_BRANCH }}
+                    fetch-depth: 0
+
+            -   name: Download W-C0034-005 artifact
+                uses: actions/download-artifact@v4
+                with:
+                    name: raw-cwa_typhoon-files
+                    path: .
+
+            -   name: Download Taoyuan report artifact
+                uses: actions/download-artifact@v4
+                with:
+                    name: typhoon_taoyuan_report
+                    path: .
+            
+            -   name: Commit and push changes
+                run: |
+                    set -euo pipefail
+                    git config user.name "github-actions[bot]"
+                    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                    git add W-C0034-005.json typhoon_taoyuan_report.txt
+
+                    if git diff --cached --quiet; then
+                        echo "No changes to commit."
+                    else
+                        git commit -m "Update W-C0034-005 and Taoyuan report"
+                        git push origin ${{ env.OUTPUT_BRANCH }}
+                    fi
