@@ -21,8 +21,8 @@ jobs:
             -   name: Get timestemp
                 id: get_timestamp
                 run: |
-                    echo "T_end=$(date -u +'%Y-%m-%dT%H')" >> $GITHUB_OUTPUT
-                    echo "T_ini=$(date -u -d '6 hours ago' +'%Y-%m-%dT%H')" >> $GITHUB_OUTPUT
+                    echo "T_end=$(TZ='Asia/Taipei' date +'%Y-%m-%dT%H')" >> $GITHUB_OUTPUT
+                    echo "T_ini=$(TZ='Asia/Taipei' date -d '6 hours ago' +'%Y-%m-%dT%H')" >> $GITHUB_OUTPUT
             
             -   name: Download CWA Typhoon Track
                 env:
