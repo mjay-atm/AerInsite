@@ -8,7 +8,7 @@ from google import genai
 def parse_args():
     parser = argparse.ArgumentParser(description="使用 Google Gemini 依 005 精簡資料產生描述報告")
     parser.add_argument("--typhoon-file", required=True, help="精簡後的 005 JSON 檔案路徑")
-    parser.add_argument("--model", default="gemini-2.0-flash", help="模型名稱") # 👈 已修復為新版預設模型
+    parser.add_argument("--model", default="gemini-3.1-flash-lite", help="模型名稱") # 👈 已修復為新版預設模型
     parser.add_argument("--api-key", default=None, help="Gemini API Key")
     parser.add_argument("--output", default="typhoon_warning_report_t.txt", help="輸出檔案路徑")
     return parser.parse_args()
