@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "800fcfe4-a32e-41c9-ab6b-78e1d4ab0470",
+  "Identifier": "c3d735b2-7cc5-4179-b796-7f46f1a4be70",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-07-22T17:22:57+08:00",
+  "Sent": "2026-07-22T20:20:49+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-07-22T18:00:00+08:00",
      "EndTime": "2026-07-26T18:00:00+08:00"
     },
-    "Update": "2026-07-22T17:22:57+08:00"
+    "Update": "2026-07-22T20:20:49+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
