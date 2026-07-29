@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "9e3a5714-94b9-44ce-a752-0a2b0d27fe8f",
+  "Identifier": "125746a7-f063-4c33-9266-de98a56e95e2",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-07-29T17:25:19+08:00",
+  "Sent": "2026-07-29T18:14:27+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-07-29T18:00:00+08:00",
      "EndTime": "2026-08-02T18:00:00+08:00"
     },
-    "Update": "2026-07-29T17:25:19+08:00"
+    "Update": "2026-07-29T18:14:27+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
@@ -173,7 +173,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -185,7 +185,7 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
@@ -197,7 +197,7 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
@@ -215,25 +215,25 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -263,7 +263,7 @@
          {
           "DataTime": "2026-07-30T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
@@ -1202,7 +1202,7 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
@@ -1214,31 +1214,31 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
@@ -1250,7 +1250,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
@@ -1268,7 +1268,7 @@
          {
           "DataTime": "2026-07-30T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -1280,7 +1280,7 @@
          {
           "DataTime": "2026-07-30T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -1292,7 +1292,7 @@
          {
           "DataTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -1310,7 +1310,7 @@
          {
           "DataTime": "2026-07-31T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -1565,7 +1565,7 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -1579,15 +1579,15 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -2795,7 +2795,7 @@
           "StartTime": "2026-07-30T06:00:00+08:00",
           "EndTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27至29度。舒適至悶熱。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度74至79%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27至30度。舒適至悶熱。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度74至79%。"
           }
          },
          {
@@ -2809,28 +2809,28 @@
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34至35度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度60至64%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏35度。悶熱至易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度60至64%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏32至34度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度58至59%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏33至35度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度58至59%。"
           }
          },
          {
           "StartTime": "2026-07-30T18:00:00+08:00",
           "EndTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至31度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度64至77%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至32度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度64至77%。"
           }
          },
          {
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度77至78%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度77至78%。"
           }
          },
          {
@@ -3099,13 +3099,13 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
@@ -3117,13 +3117,13 @@
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
@@ -3135,31 +3135,31 @@
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-07-30T20:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -4110,67 +4110,67 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -4182,19 +4182,19 @@
          {
           "DataTime": "2026-07-30T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -4206,7 +4206,7 @@
          {
           "DataTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -4472,14 +4472,14 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "28",
+           "ComfortIndex": "29",
            "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -4493,22 +4493,22 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -4521,7 +4521,7 @@
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -4535,7 +4535,7 @@
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "28",
+           "ComfortIndex": "29",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -4556,7 +4556,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -4577,8 +4577,8 @@
          {
           "DataTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -5716,28 +5716,28 @@
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度69至74%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至34度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度69至74%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度63至67%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34至35度。易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度63至67%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至34度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度63至64%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏33至34度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度63至64%。"
           }
          },
          {
           "StartTime": "2026-07-30T18:00:00+08:00",
           "EndTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29至31度。悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度70至80%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至32度。悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度70至80%。"
           }
          },
          {
@@ -5751,7 +5751,7 @@
           "StartTime": "2026-07-31T00:00:00+08:00",
           "EndTime": "2026-07-31T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至28度。舒適。西南風 平均風速1-2級(每秒2公尺)。相對濕度81%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至28度。舒適至悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度81%。"
           }
          },
          {
@@ -6001,13 +6001,13 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -6037,7 +6037,7 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
@@ -7024,73 +7024,73 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "40"
+           "ApparentTemperature": "41"
           }
          },
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "41"
+           "ApparentTemperature": "42"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "40"
+           "ApparentTemperature": "41"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -7407,7 +7407,7 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "32",
+           "ComfortIndex": "33",
            "ComfortIndexDescription": "易中暑"
           }
          },
@@ -7421,7 +7421,7 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "31",
+           "ComfortIndex": "32",
            "ComfortIndexDescription": "易中暑"
           }
          },
@@ -7470,7 +7470,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -8623,21 +8623,21 @@
           "StartTime": "2026-07-30T06:00:00+08:00",
           "EndTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度79至86%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26至30度。舒適至悶熱。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度79至86%。"
           }
          },
          {
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至34度。悶熱至易中暑。東南風 平均風速<= 1級(每秒1公尺)。相對濕度78至79%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏32至34度。悶熱至易中暑。東南風 平均風速<= 1級(每秒1公尺)。相對濕度78至79%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34至35度。易中暑。西南風 平均風速<= 1級(每秒1公尺)。相對濕度68至74%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏35度。易中暑。西南風 平均風速<= 1級(每秒1公尺)。相對濕度68至74%。"
           }
          },
          {
@@ -8921,7 +8921,7 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
@@ -8933,7 +8933,7 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
@@ -8957,7 +8957,7 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
@@ -8993,7 +8993,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
@@ -9938,7 +9938,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -9950,13 +9950,13 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
@@ -9968,7 +9968,7 @@
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
@@ -9980,31 +9980,31 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -10321,15 +10321,15 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -10384,8 +10384,8 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -11544,21 +11544,21 @@
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至32度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度74至79%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度74至79%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏33度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度69至73%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏33度。悶熱至易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度69至73%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至32度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度71至73%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度71至73%。"
           }
          },
          {
@@ -11572,7 +11572,7 @@
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27度。舒適。偏西風 平均風速1-2級(每秒2公尺)。相對濕度86至88%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適至悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度86至88%。"
           }
          },
          {
@@ -11829,7 +11829,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -11841,13 +11841,13 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
@@ -11859,13 +11859,13 @@
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
@@ -11877,25 +11877,25 @@
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
@@ -11919,7 +11919,7 @@
          {
           "DataTime": "2026-07-30T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
@@ -11937,7 +11937,7 @@
          {
           "DataTime": "2026-07-31T02:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
@@ -12864,37 +12864,37 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
@@ -12906,7 +12906,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
@@ -12924,7 +12924,7 @@
          {
           "DataTime": "2026-07-30T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -12936,7 +12936,7 @@
          {
           "DataTime": "2026-07-30T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -12960,7 +12960,7 @@
          {
           "DataTime": "2026-07-31T02:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -13207,7 +13207,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -13221,7 +13221,7 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -13242,8 +13242,8 @@
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -13298,7 +13298,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -14451,49 +14451,49 @@
           "StartTime": "2026-07-30T06:00:00+08:00",
           "EndTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27至29度。舒適至悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度76至80%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27至30度。舒適至悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度76至80%。"
           }
          },
          {
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度67至73%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至34度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度67至73%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度63至66%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34至35度。悶熱至易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度63至66%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏32至34度。悶熱。西南風 平均風速1-2級(每秒3公尺)。相對濕度64至67%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏33至34度。悶熱。西南風 平均風速1-2級(每秒3公尺)。相對濕度64至67%。"
           }
          },
          {
           "StartTime": "2026-07-30T18:00:00+08:00",
           "EndTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏30至31度。悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度71至79%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏30至32度。悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度71至79%。"
           }
          },
          {
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度79%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度79%。"
           }
          },
          {
           "StartTime": "2026-07-31T00:00:00+08:00",
           "EndTime": "2026-07-31T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至28度。舒適至悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度80至81%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。舒適至悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度80至81%。"
           }
          },
          {
@@ -14821,7 +14821,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
@@ -15766,7 +15766,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -16184,7 +16184,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -17400,7 +17400,7 @@
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度84%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度84%。"
           }
          },
          {
@@ -17657,7 +17657,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -17669,7 +17669,7 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
@@ -17681,7 +17681,7 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
@@ -17693,37 +17693,37 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
@@ -18680,67 +18680,67 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "38"
           }
          },
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -18752,13 +18752,13 @@
          {
           "DataTime": "2026-07-30T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -19035,7 +19035,7 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -19049,7 +19049,7 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -19063,15 +19063,15 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -20279,7 +20279,7 @@
           "StartTime": "2026-07-30T06:00:00+08:00",
           "EndTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度77至81%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26至30度。舒適至悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度77至81%。"
           }
          },
          {
@@ -20293,21 +20293,21 @@
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34至35度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度61至65%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏35度。悶熱至易中暑。偏南風 平均風速1-2級(每秒2公尺)。相對濕度61至65%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至34度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度60至61%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏33至35度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度60至61%。"
           }
          },
          {
           "StartTime": "2026-07-30T18:00:00+08:00",
           "EndTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至31度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度66至79%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至32度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度66至79%。"
           }
          },
          {
@@ -20577,7 +20577,7 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
@@ -20589,7 +20589,7 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
@@ -20601,7 +20601,7 @@
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "34"
+           "Temperature": "35"
           }
          },
          {
@@ -20613,13 +20613,13 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
@@ -20649,7 +20649,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
@@ -21606,37 +21606,37 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "39"
+           "ApparentTemperature": "40"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
@@ -21648,7 +21648,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -21660,7 +21660,7 @@
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -21684,7 +21684,7 @@
          {
           "DataTime": "2026-07-30T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -21956,22 +21956,22 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "28",
+           "ComfortIndex": "29",
            "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -21998,7 +21998,7 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -22026,7 +22026,7 @@
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -23200,21 +23200,21 @@
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至33度。悶熱。東南風 平均風速<= 1級(每秒1公尺)。相對濕度71至75%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至34度。悶熱至易中暑。東南風 平均風速<= 1級(每秒1公尺)。相對濕度71至75%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34度。悶熱至易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度64至69%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34至35度。悶熱至易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度64至69%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至33度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度61至63%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至34度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度61至63%。"
           }
          },
          {
@@ -23228,7 +23228,7 @@
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。舒適至悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度81至83%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至29度。舒適至悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度81至83%。"
           }
          },
          {
@@ -23497,7 +23497,7 @@
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -23509,13 +23509,13 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
@@ -23527,13 +23527,13 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -23563,7 +23563,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
@@ -24526,7 +24526,7 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
@@ -24538,7 +24538,7 @@
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
@@ -24562,7 +24562,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -24574,7 +24574,7 @@
          {
           "DataTime": "2026-07-30T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -24622,7 +24622,7 @@
          {
           "DataTime": "2026-07-31T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -24870,7 +24870,7 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "28",
+           "ComfortIndex": "29",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -24912,7 +24912,7 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -24933,7 +24933,7 @@
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -26121,14 +26121,14 @@
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏33度。悶熱至易中暑。西南風 平均風速<= 1級(每秒1公尺)。相對濕度69至77%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏33至34度。悶熱至易中暑。西南風 平均風速<= 1級(每秒1公尺)。相對濕度69至77%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏31至32度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度67至69%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏31至33度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度67至69%。"
           }
          },
          {
@@ -26142,7 +26142,7 @@
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27度。舒適。偏西風 平均風速<= 1級(每秒1公尺)。相對濕度84至86%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適。偏西風 平均風速<= 1級(每秒1公尺)。相對濕度84至86%。"
           }
          },
          {
@@ -26405,7 +26405,7 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
@@ -26441,7 +26441,7 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "33"
+           "Temperature": "34"
           }
          },
          {
@@ -26513,7 +26513,7 @@
          {
           "DataTime": "2026-07-31T03:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -27422,19 +27422,19 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
@@ -27446,25 +27446,25 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
@@ -27476,13 +27476,13 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
           "DataTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -27500,7 +27500,7 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -27512,7 +27512,7 @@
          {
           "DataTime": "2026-07-30T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -27524,7 +27524,7 @@
          {
           "DataTime": "2026-07-31T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -27784,14 +27784,14 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "28",
+           "ComfortIndex": "29",
            "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-07-30T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "29",
+           "ComfortIndex": "30",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -27819,8 +27819,8 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "30",
-           "ComfortIndexDescription": "悶熱"
+           "ComfortIndex": "31",
+           "ComfortIndexDescription": "易中暑"
           }
          },
          {
@@ -29028,21 +29028,21 @@
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至33度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度71至76%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度71至76%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34度。悶熱至易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度66至70%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏34度。易中暑。西南風 平均風速1-2級(每秒2公尺)。相對濕度66至70%。"
           }
          },
          {
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至33度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度67至69%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏32至34度。悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度67至69%。"
           }
          },
          {
@@ -29070,7 +29070,7 @@
           "StartTime": "2026-07-31T03:00:00+08:00",
           "EndTime": "2026-07-31T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26度。舒適。西南風 平均風速1-2級(每秒2公尺)。相對濕度84至85%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26至27度。舒適。西南風 平均風速1-2級(每秒2公尺)。相對濕度84至85%。"
           }
          },
          {
@@ -29331,7 +29331,7 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
@@ -29355,13 +29355,13 @@
          {
           "DataTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "32"
+           "Temperature": "33"
           }
          },
          {
           "DataTime": "2026-07-30T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -30330,7 +30330,7 @@
          {
           "DataTime": "2026-07-30T07:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -30342,7 +30342,7 @@
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -30354,7 +30354,7 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
@@ -30372,7 +30372,7 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "37"
           }
          },
          {
@@ -30426,7 +30426,7 @@
          {
           "DataTime": "2026-07-30T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -30754,7 +30754,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "28",
+           "ComfortIndex": "29",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -30782,8 +30782,8 @@
          {
           "DataTime": "2026-07-30T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -31942,7 +31942,7 @@
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至32度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度71至78%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度71至78%。"
           }
          },
          {
@@ -31956,7 +31956,7 @@
           "StartTime": "2026-07-30T15:00:00+08:00",
           "EndTime": "2026-07-30T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至32度。悶熱。偏西風 平均風速1-2級(每秒3公尺)。相對濕度71至75%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至33度。悶熱。偏西風 平均風速1-2級(每秒3公尺)。相對濕度71至75%。"
           }
          },
          {
@@ -31970,7 +31970,7 @@
           "StartTime": "2026-07-30T21:00:00+08:00",
           "EndTime": "2026-07-31T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至28度。舒適。西北風 平均風速1-2級(每秒2公尺)。相對濕度85至87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至28度。舒適至悶熱。西北風 平均風速1-2級(每秒2公尺)。相對濕度85至87%。"
           }
          },
          {
@@ -33286,7 +33286,7 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
@@ -35141,13 +35141,13 @@
          {
           "DataTime": "2026-07-30T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -35159,7 +35159,7 @@
          {
           "DataTime": "2026-07-30T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -35177,7 +35177,7 @@
          {
           "DataTime": "2026-07-30T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
@@ -35225,7 +35225,7 @@
          {
           "DataTime": "2026-07-30T22:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -36188,7 +36188,7 @@
          {
           "DataTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "37"
+           "ApparentTemperature": "38"
           }
          },
          {
@@ -36218,7 +36218,7 @@
          {
           "DataTime": "2026-07-30T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -37763,21 +37763,21 @@
           "StartTime": "2026-07-30T06:00:00+08:00",
           "EndTime": "2026-07-30T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏24至27度。舒適至悶熱。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度92至93%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏24至28度。舒適至悶熱。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度92至93%。"
           }
          },
          {
           "StartTime": "2026-07-30T09:00:00+08:00",
           "EndTime": "2026-07-30T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29至31度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度83至89%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30至32度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度83至89%。"
           }
          },
          {
           "StartTime": "2026-07-30T12:00:00+08:00",
           "EndTime": "2026-07-30T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏31至32度。悶熱至易中暑。偏北風 平均風速<= 1級(每秒1公尺)。相對濕度77至81%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏32度。悶熱至易中暑。偏北風 平均風速<= 1級(每秒1公尺)。相對濕度77至81%。"
           }
          },
          {
