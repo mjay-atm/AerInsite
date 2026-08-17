@@ -3,12 +3,12 @@
     "dataid": "D0047-005",
     "dataset_description": "臺灣各縣市鄉鎮未來3天天氣預報",
     "locations_name": "桃園市",
-    "issue_time": "2026-08-17T17:00:00+08:00",
+    "issue_time": "2026-08-17T23:00:00+08:00",
     "valid_time": {
-      "StartTime": "2026-08-17T18:00:00+08:00",
-      "EndTime": "2026-08-21T18:00:00+08:00"
+      "StartTime": "2026-08-18T00:00:00+08:00",
+      "EndTime": "2026-08-22T00:00:00+08:00"
     },
-    "update_time": "2026-08-17T18:14:45+08:00"
+    "update_time": "2026-08-17T23:08:23+08:00"
   },
   "focus": [
     "降雨",
@@ -16,26 +16,14 @@
   ],
   "city_daily_summary": [
     {
-      "date": "2026-08-17",
-      "rain": {
-        "city_max_pop": 20.0,
-        "city_avg_pop": 20.0
-      },
-      "wind": {
-        "city_max_speed_mps": 8.0,
-        "city_avg_speed_mps": 5.15,
-        "city_max_beaufort": 5.0
-      }
-    },
-    {
       "date": "2026-08-18",
       "rain": {
         "city_max_pop": 20.0,
-        "city_avg_pop": 13.75
+        "city_avg_pop": 11.92
       },
       "wind": {
-        "city_max_speed_mps": 10.0,
-        "city_avg_speed_mps": 4.88,
+        "city_max_speed_mps": 9.0,
+        "city_avg_speed_mps": 5.0,
         "city_max_beaufort": 5.0
       }
     },
@@ -43,11 +31,11 @@
       "date": "2026-08-19",
       "rain": {
         "city_max_pop": 30.0,
-        "city_avg_pop": 21.35
+        "city_avg_pop": 24.13
       },
       "wind": {
         "city_max_speed_mps": 9.0,
-        "city_avg_speed_mps": 5.1,
+        "city_avg_speed_mps": 5.45,
         "city_max_beaufort": 5.0
       }
     },
@@ -67,12 +55,12 @@
       "date": "2026-08-21",
       "rain": {
         "city_max_pop": 60.0,
-        "city_avg_pop": 21.54
+        "city_avg_pop": 22.5
       },
       "wind": {
-        "city_max_speed_mps": 3.0,
-        "city_avg_speed_mps": 1.5,
-        "city_max_beaufort": 2.0
+        "city_max_speed_mps": 4.0,
+        "city_avg_speed_mps": 1.66,
+        "city_max_beaufort": 3.0
       }
     }
   ],
@@ -127,21 +115,10 @@
     "wind": [
       {
         "location_name": "觀音區",
-        "max_speed_mps": 10.0,
-        "max_beaufort": 5.0,
-        "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
-          "speed_mps": 10.0,
-          "beaufort": 5.0,
-          "direction": "東北風"
-        }
-      },
-      {
-        "location_name": "大園區",
         "max_speed_mps": 9.0,
         "max_beaufort": 5.0,
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T12:00:00+08:00",
           "speed_mps": 9.0,
           "beaufort": 5.0,
           "direction": "東北風"
@@ -159,14 +136,14 @@
         }
       },
       {
-        "location_name": "蘆竹區",
+        "location_name": "大園區",
         "max_speed_mps": 8.0,
         "max_beaufort": 5.0,
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T12:00:00+08:00",
           "speed_mps": 8.0,
           "beaufort": 5.0,
-          "direction": "偏東風"
+          "direction": "東北風"
         }
       },
       {
@@ -174,10 +151,21 @@
         "max_speed_mps": 8.0,
         "max_beaufort": 5.0,
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T12:00:00+08:00",
           "speed_mps": 8.0,
           "beaufort": 5.0,
           "direction": "東北風"
+        }
+      },
+      {
+        "location_name": "桃園區",
+        "max_speed_mps": 7.0,
+        "max_beaufort": 4.0,
+        "peak_time": {
+          "data_time": "2026-08-18T12:00:00+08:00",
+          "speed_mps": 7.0,
+          "beaufort": 4.0,
+          "direction": "偏東風"
         }
       }
     ]
@@ -191,7 +179,7 @@
       },
       "rain": {
         "max_pop": 70.0,
-        "avg_pop": 21.25,
+        "avg_pop": 21.56,
         "peak_period": {
           "start_time": "2026-08-20T15:00:00+08:00",
           "end_time": "2026-08-20T18:00:00+08:00",
@@ -200,11 +188,11 @@
       },
       "wind": {
         "max_speed_mps": 7.0,
-        "avg_speed_mps": 3.75,
+        "avg_speed_mps": 3.56,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T12:00:00+08:00",
           "speed_mps": 7.0,
           "beaufort": 4.0,
           "direction": "偏東風"
@@ -228,14 +216,14 @@
       },
       "wind": {
         "max_speed_mps": 7.0,
-        "avg_speed_mps": 3.81,
+        "avg_speed_mps": 3.59,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T18:00:00+08:00",
           "speed_mps": 7.0,
           "beaufort": 4.0,
-          "direction": "東北風"
+          "direction": "偏東風"
         }
       }
     },
@@ -247,7 +235,7 @@
       },
       "rain": {
         "max_pop": 70.0,
-        "avg_pop": 21.25,
+        "avg_pop": 22.19,
         "peak_period": {
           "start_time": "2026-08-20T15:00:00+08:00",
           "end_time": "2026-08-20T18:00:00+08:00",
@@ -256,14 +244,14 @@
       },
       "wind": {
         "max_speed_mps": 6.0,
-        "avg_speed_mps": 2.81,
+        "avg_speed_mps": 2.72,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T18:00:00+08:00",
+          "data_time": "2026-08-19T12:00:00+08:00",
           "speed_mps": 6.0,
           "beaufort": 4.0,
-          "direction": "偏東風"
+          "direction": "東北風"
         }
       }
     },
@@ -284,9 +272,9 @@
       },
       "wind": {
         "max_speed_mps": 8.0,
-        "avg_speed_mps": 3.53,
+        "avg_speed_mps": 3.56,
         "max_beaufort": 5.0,
-        "dominant_direction": "偏東風",
+        "dominant_direction": "東北風",
         "peak_time": {
           "data_time": "2026-08-19T15:00:00+08:00",
           "speed_mps": 8.0,
@@ -303,7 +291,7 @@
       },
       "rain": {
         "max_pop": 30.0,
-        "avg_pop": 19.69,
+        "avg_pop": 20.0,
         "peak_period": {
           "start_time": "2026-08-19T09:00:00+08:00",
           "end_time": "2026-08-19T12:00:00+08:00",
@@ -311,14 +299,14 @@
         }
       },
       "wind": {
-        "max_speed_mps": 8.0,
-        "avg_speed_mps": 4.22,
-        "max_beaufort": 5.0,
+        "max_speed_mps": 7.0,
+        "avg_speed_mps": 3.97,
+        "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
-          "speed_mps": 8.0,
-          "beaufort": 5.0,
+          "data_time": "2026-08-18T12:00:00+08:00",
+          "speed_mps": 7.0,
+          "beaufort": 4.0,
           "direction": "偏東風"
         }
       }
@@ -339,13 +327,13 @@
         }
       },
       "wind": {
-        "max_speed_mps": 9.0,
+        "max_speed_mps": 8.0,
         "avg_speed_mps": 4.94,
         "max_beaufort": 5.0,
-        "dominant_direction": "東北風",
+        "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
-          "speed_mps": 9.0,
+          "data_time": "2026-08-18T12:00:00+08:00",
+          "speed_mps": 8.0,
           "beaufort": 5.0,
           "direction": "東北風"
         }
@@ -358,21 +346,21 @@
         "lon": 121.32969
       },
       "rain": {
-        "max_pop": 30.0,
-        "avg_pop": 19.69,
+        "max_pop": 40.0,
+        "avg_pop": 20.62,
         "peak_period": {
-          "start_time": "2026-08-19T09:00:00+08:00",
-          "end_time": "2026-08-19T12:00:00+08:00",
-          "pop": 30.0
+          "start_time": "2026-08-21T18:00:00+08:00",
+          "end_time": "2026-08-21T21:00:00+08:00",
+          "pop": 40.0
         }
       },
       "wind": {
         "max_speed_mps": 7.0,
-        "avg_speed_mps": 3.69,
+        "avg_speed_mps": 3.59,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T12:00:00+08:00",
           "speed_mps": 7.0,
           "beaufort": 4.0,
           "direction": "偏東風"
@@ -387,7 +375,7 @@
       },
       "rain": {
         "max_pop": 70.0,
-        "avg_pop": 21.25,
+        "avg_pop": 22.5,
         "peak_period": {
           "start_time": "2026-08-20T15:00:00+08:00",
           "end_time": "2026-08-20T18:00:00+08:00",
@@ -396,11 +384,11 @@
       },
       "wind": {
         "max_speed_mps": 6.0,
-        "avg_speed_mps": 3.19,
+        "avg_speed_mps": 3.09,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T18:00:00+08:00",
           "speed_mps": 6.0,
           "beaufort": 4.0,
           "direction": "偏東風"
@@ -414,17 +402,17 @@
         "lon": 121.214096
       },
       "rain": {
-        "max_pop": 30.0,
-        "avg_pop": 19.06,
+        "max_pop": 40.0,
+        "avg_pop": 19.69,
         "peak_period": {
-          "start_time": "2026-08-19T12:00:00+08:00",
-          "end_time": "2026-08-19T15:00:00+08:00",
-          "pop": 30.0
+          "start_time": "2026-08-21T18:00:00+08:00",
+          "end_time": "2026-08-21T21:00:00+08:00",
+          "pop": 40.0
         }
       },
       "wind": {
         "max_speed_mps": 6.0,
-        "avg_speed_mps": 2.91,
+        "avg_speed_mps": 2.97,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
@@ -452,11 +440,11 @@
       },
       "wind": {
         "max_speed_mps": 7.0,
-        "avg_speed_mps": 3.72,
+        "avg_speed_mps": 3.5,
         "max_beaufort": 4.0,
         "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-19T12:00:00+08:00",
           "speed_mps": 7.0,
           "beaufort": 4.0,
           "direction": "東北風"
@@ -484,7 +472,7 @@
         "max_beaufort": 5.0,
         "dominant_direction": "東北風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
+          "data_time": "2026-08-18T12:00:00+08:00",
           "speed_mps": 8.0,
           "beaufort": 5.0,
           "direction": "東北風"
@@ -507,13 +495,13 @@
         }
       },
       "wind": {
-        "max_speed_mps": 10.0,
-        "avg_speed_mps": 5.47,
+        "max_speed_mps": 9.0,
+        "avg_speed_mps": 5.58,
         "max_beaufort": 5.0,
-        "dominant_direction": "東北風",
+        "dominant_direction": "偏東風",
         "peak_time": {
-          "data_time": "2026-08-18T15:00:00+08:00",
-          "speed_mps": 10.0,
+          "data_time": "2026-08-18T12:00:00+08:00",
+          "speed_mps": 9.0,
           "beaufort": 5.0,
           "direction": "東北風"
         }
@@ -527,7 +515,7 @@
       },
       "rain": {
         "max_pop": 70.0,
-        "avg_pop": 23.12,
+        "avg_pop": 26.25,
         "peak_period": {
           "start_time": "2026-08-20T15:00:00+08:00",
           "end_time": "2026-08-20T18:00:00+08:00",
@@ -536,7 +524,7 @@
       },
       "wind": {
         "max_speed_mps": 4.0,
-        "avg_speed_mps": 2.25,
+        "avg_speed_mps": 2.31,
         "max_beaufort": 3.0,
         "dominant_direction": "偏東風",
         "peak_time": {
