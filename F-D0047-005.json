@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "dba79bc5-3805-4d99-88e6-f47ed94a5dcc",
+  "Identifier": "462f425f-554f-4d56-a591-bc8e737f7c97",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-08-23T23:15:11+08:00",
+  "Sent": "2026-08-24T00:15:09+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-08-24T00:00:00+08:00",
      "EndTime": "2026-08-28T00:00:00+08:00"
     },
-    "Update": "2026-08-23T23:15:11+08:00"
+    "Update": "2026-08-24T00:15:09+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
@@ -2375,7 +2375,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -2618,8 +2618,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -2865,7 +2865,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度89%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏29度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度89%。"
           }
          },
          {
@@ -5226,7 +5226,7 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "60"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -5289,7 +5289,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -5460,8 +5460,8 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "短暫陣雨或雷雨",
-           "WeatherCode": "15"
+           "Weather": "陰",
+           "WeatherCode": "07"
           }
          },
          {
@@ -5532,8 +5532,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -5716,7 +5716,7 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "短暫陣雨或雷雨。降雨機率60%。溫度攝氏28至29度。悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度96%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28至29度。悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度96%。"
           }
          },
          {
@@ -5779,7 +5779,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度88%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度88%。"
           }
          },
          {
@@ -8203,7 +8203,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -8446,8 +8446,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -8693,7 +8693,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度92%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏27度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度92%。"
           }
          },
          {
@@ -11019,7 +11019,7 @@
           "StartTime": "2026-08-24T00:00:00+08:00",
           "EndTime": "2026-08-24T03:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "40"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -11117,7 +11117,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -11248,8 +11248,8 @@
           "StartTime": "2026-08-24T00:00:00+08:00",
           "EndTime": "2026-08-24T03:00:00+08:00",
           "ElementValue": {
-           "Weather": "短暫陣雨或雷雨",
-           "WeatherCode": "15"
+           "Weather": "陰",
+           "WeatherCode": "07"
           }
          },
          {
@@ -11360,8 +11360,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -11509,7 +11509,7 @@
           "StartTime": "2026-08-24T00:00:00+08:00",
           "EndTime": "2026-08-24T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "短暫陣雨或雷雨。降雨機率40%。溫度攝氏26度。舒適。東南風 平均風速1-2級(每秒2公尺)。相對濕度93至94%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏26度。舒適。東南風 平均風速1-2級(每秒2公尺)。相對濕度93至94%。"
           }
          },
          {
@@ -11607,7 +11607,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度91%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏27度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度91%。"
           }
          },
          {
@@ -14031,7 +14031,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -14274,8 +14274,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -14521,7 +14521,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29度。悶熱。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度86%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏29度。悶熱。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度86%。"
           }
          },
          {
@@ -16882,7 +16882,7 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "40"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -16924,7 +16924,7 @@
           "StartTime": "2026-08-25T09:00:00+08:00",
           "EndTime": "2026-08-25T12:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -16945,7 +16945,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -17116,8 +17116,8 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "短暫陣雨或雷雨",
-           "WeatherCode": "15"
+           "Weather": "陰",
+           "WeatherCode": "07"
           }
          },
          {
@@ -17164,8 +17164,8 @@
           "StartTime": "2026-08-25T09:00:00+08:00",
           "EndTime": "2026-08-25T12:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -17188,8 +17188,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -17372,7 +17372,7 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "短暫陣雨或雷雨。降雨機率40%。溫度攝氏29至30度。悶熱。偏東風 平均風速1-2級(每秒3公尺)。相對濕度88至89%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29至30度。悶熱。偏東風 平均風速1-2級(每秒3公尺)。相對濕度88至89%。"
           }
          },
          {
@@ -17414,7 +17414,7 @@
           "StartTime": "2026-08-25T09:00:00+08:00",
           "EndTime": "2026-08-25T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29至31度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度72至84%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏29至31度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度72至84%。"
           }
          },
          {
@@ -17435,7 +17435,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29度。悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度84%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏29度。悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度84%。"
           }
          },
          {
@@ -19859,7 +19859,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -20102,8 +20102,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -20349,7 +20349,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度90%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度90%。"
           }
          },
          {
@@ -22773,7 +22773,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -23016,8 +23016,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -23263,7 +23263,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度90%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度90%。"
           }
          },
          {
@@ -25687,7 +25687,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -25930,8 +25930,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -26177,7 +26177,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度93%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏27度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度93%。"
           }
          },
          {
@@ -28538,7 +28538,7 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "50"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -28601,7 +28601,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -28772,8 +28772,8 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "短暫陣雨或雷雨",
-           "WeatherCode": "15"
+           "Weather": "陰",
+           "WeatherCode": "07"
           }
          },
          {
@@ -28844,8 +28844,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -29028,7 +29028,7 @@
           "StartTime": "2026-08-24T15:00:00+08:00",
           "EndTime": "2026-08-24T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "短暫陣雨或雷雨。降雨機率50%。溫度攝氏27至28度。悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度95至96%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏27至28度。悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度95至96%。"
           }
          },
          {
@@ -29091,7 +29091,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度88%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度88%。"
           }
          },
          {
@@ -31515,7 +31515,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -31758,8 +31758,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -32005,7 +32005,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度87%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度87%。"
           }
          },
          {
@@ -34422,14 +34422,14 @@
           "StartTime": "2026-08-25T15:00:00+08:00",
           "EndTime": "2026-08-25T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -34664,16 +34664,16 @@
           "StartTime": "2026-08-25T15:00:00+08:00",
           "EndTime": "2026-08-25T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -34912,14 +34912,14 @@
           "StartTime": "2026-08-25T15:00:00+08:00",
           "EndTime": "2026-08-25T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏30度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度79%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏30度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度79%。"
           }
          },
          {
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度85%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度85%。"
           }
          },
          {
@@ -37343,7 +37343,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
@@ -37385,14 +37385,14 @@
           "StartTime": "2026-08-26T12:00:00+08:00",
           "EndTime": "2026-08-26T15:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "20"
+           "ProbabilityOfPrecipitation": "30"
           }
          },
          {
           "StartTime": "2026-08-26T15:00:00+08:00",
           "EndTime": "2026-08-26T18:00:00+08:00",
           "ElementValue": {
-           "ProbabilityOfPrecipitation": "40"
+           "ProbabilityOfPrecipitation": "20"
           }
          },
          {
@@ -37586,8 +37586,8 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "短暫陣雨",
+           "WeatherCode": "08"
           }
          },
          {
@@ -37634,16 +37634,16 @@
           "StartTime": "2026-08-26T12:00:00+08:00",
           "EndTime": "2026-08-26T15:00:00+08:00",
           "ElementValue": {
-           "Weather": "陰",
-           "WeatherCode": "07"
+           "Weather": "午後短暫雷陣雨",
+           "WeatherCode": "15"
           }
          },
          {
           "StartTime": "2026-08-26T15:00:00+08:00",
           "EndTime": "2026-08-26T18:00:00+08:00",
           "ElementValue": {
-           "Weather": "午後短暫雷陣雨",
-           "WeatherCode": "15"
+           "Weather": "陰",
+           "WeatherCode": "07"
           }
          },
          {
@@ -37833,7 +37833,7 @@
           "StartTime": "2026-08-25T18:00:00+08:00",
           "EndTime": "2026-08-25T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度96%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度96%。"
           }
          },
          {
@@ -37875,14 +37875,14 @@
           "StartTime": "2026-08-26T12:00:00+08:00",
           "EndTime": "2026-08-26T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "陰。降雨機率20%。溫度攝氏29度。悶熱。偏西風 平均風速2-3級(每秒4公尺)。相對濕度79%。"
+           "WeatherDescription": "午後短暫雷陣雨。降雨機率30%。溫度攝氏29度。悶熱。偏西風 平均風速2-3級(每秒4公尺)。相對濕度79%。"
           }
          },
          {
           "StartTime": "2026-08-26T15:00:00+08:00",
           "EndTime": "2026-08-26T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "午後短暫雷陣雨。降雨機率40%。溫度攝氏28度。悶熱。偏西風 平均風速2-3級(每秒4公尺)。相對濕度84%。"
+           "WeatherDescription": "陰。降雨機率20%。溫度攝氏28度。悶熱。偏西風 平均風速2-3級(每秒4公尺)。相對濕度84%。"
           }
          },
          {
