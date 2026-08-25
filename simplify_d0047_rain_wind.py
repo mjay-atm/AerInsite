@@ -1,7 +1,7 @@
 import argparse
 import json
 from collections import Counter, defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 
@@ -93,6 +93,34 @@ def summarize_location(location, keep_timeseries=False):
     rain_series = extract_rain_series(location)
     wind_series = extract_wind_series(location)
 
+    # 1. 找出第一筆預報資料的日曆日期 (當作 Day 1)
+    base_date = None
+    if rain_series and rain_series[0].get("start_time"):
+        dt = parse_iso_dt(rain_series[0]["start_time"])
+        if dt:
+            base_date = dt.date()
+    elif wind_series and wind_series[0].get("data_time"):
+        dt = parse_iso_dt(wind_series[0]["data_time"])
+        if dt:
+            base_date = dt.date()
+
+    # 2. 若成功取得起始日期，則只保留今天、明天、後天 (共 3 個日曆天) 的資料
+    if base_date:
+        max_date = base_date + timedelta(days=2)  # 今天(0) + 明天(1) + 後天(2)
+
+        # 過濾降雨資料
+        rain_series = [
+            item for item in rain_series
+            if (dt := parse_iso_dt(item.get("start_time"))) and base_date <= dt.date() <= max_date
+        ]
+
+        # 過濾風力資料
+        wind_series = [
+            item for item in wind_series
+            if (dt := parse_iso_dt(item.get("data_time"))) and base_date <= dt.date() <= max_date
+        ]
+
+    # 3. 計算 3 日曆天內的極值與統計量
     rain_vals = [item["pop"] for item in rain_series if item["pop"] is not None]
     wind_vals = [item["wind_speed"] for item in wind_series if item["wind_speed"] is not None]
     beaufort_vals = [item["beaufort"] for item in wind_series if item["beaufort"] is not None]
