@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "9be83a4c-5e06-4d8e-83e3-79950b5b8846",
+  "Identifier": "2fb9b381-d8f0-49ba-a4fe-40a557f2c00b",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-08-27T23:03:04+08:00",
+  "Sent": "2026-08-28T00:15:09+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-08-28T00:00:00+08:00",
      "EndTime": "2026-09-01T00:00:00+08:00"
     },
-    "Update": "2026-08-27T23:03:04+08:00"
+    "Update": "2026-08-28T00:15:09+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
@@ -1262,7 +1262,7 @@
          {
           "DataTime": "2026-08-29T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -1280,7 +1280,7 @@
          {
           "DataTime": "2026-08-29T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -1292,7 +1292,7 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -1913,15 +1913,15 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -2830,14 +2830,14 @@
           "StartTime": "2026-08-29T03:00:00+08:00",
           "EndTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至27度。舒適。西南風 平均風速1-2級(每秒2公尺)。相對濕度88至91%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至27度。舒適。西南風 平均風速<= 1級(每秒1公尺)。相對濕度88至91%。"
           }
          },
          {
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度79至87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度79至87%。"
           }
          },
          {
@@ -4032,7 +4032,7 @@
          {
           "DataTime": "2026-08-28T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -4140,13 +4140,13 @@
          {
           "DataTime": "2026-08-28T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-08-28T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -4188,7 +4188,7 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -4206,7 +4206,7 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -4764,15 +4764,15 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
           "DataTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
@@ -4785,7 +4785,7 @@
          {
           "DataTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
+           "WindSpeed": "6",
            "BeaufortScale": "4"
           }
          },
@@ -4827,15 +4827,15 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -5681,14 +5681,14 @@
           "StartTime": "2026-08-28T00:00:00+08:00",
           "EndTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度57至59%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適。西南風 平均風速4-5級(每秒8公尺)。相對濕度57至59%。"
           }
          },
          {
           "StartTime": "2026-08-28T03:00:00+08:00",
           "EndTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度59至65%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。舒適。西南風 平均風速4-5級(每秒8公尺)。相對濕度59至65%。"
           }
          },
          {
@@ -5702,7 +5702,7 @@
           "StartTime": "2026-08-28T09:00:00+08:00",
           "EndTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速3-4級(每秒7公尺)。相對濕度66至72%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速3-4級(每秒6公尺)。相對濕度66至72%。"
           }
          },
          {
@@ -5744,14 +5744,14 @@
           "StartTime": "2026-08-29T03:00:00+08:00",
           "EndTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至27度。舒適。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至90%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至27度。舒適。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度89至90%。"
           }
          },
          {
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度77至86%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度77至86%。"
           }
          },
          {
@@ -7024,7 +7024,7 @@
          {
           "DataTime": "2026-08-28T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "38"
+           "ApparentTemperature": "39"
           }
          },
          {
@@ -7084,7 +7084,7 @@
          {
           "DataTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -7120,7 +7120,7 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -7713,8 +7713,8 @@
          {
           "DataTime": "2026-08-28T15:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "4",
-           "BeaufortScale": "3"
+           "WindSpeed": "3",
+           "BeaufortScale": "2"
           }
          },
          {
@@ -7734,8 +7734,8 @@
          {
           "DataTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -7748,8 +7748,8 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -8630,7 +8630,7 @@
           "StartTime": "2026-08-28T15:00:00+08:00",
           "EndTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏31至33度。悶熱。偏西風 平均風速2-3級(每秒4公尺)。相對濕度74至78%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏31至33度。悶熱。偏西風 平均風速1-2級(每秒3公尺)。相對濕度74至78%。"
           }
          },
          {
@@ -8651,7 +8651,7 @@
           "StartTime": "2026-08-29T00:00:00+08:00",
           "EndTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至27度。舒適。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89至91%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至27度。舒適。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度89至91%。"
           }
          },
          {
@@ -8665,7 +8665,7 @@
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏25至28度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度78至87%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏25至28度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度78至87%。"
           }
          },
          {
@@ -9860,7 +9860,7 @@
          {
           "DataTime": "2026-08-28T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "25"
           }
          },
          {
@@ -9890,7 +9890,7 @@
          {
           "DataTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "25"
           }
          },
          {
@@ -9920,19 +9920,19 @@
          {
           "DataTime": "2026-08-28T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-08-28T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -9944,7 +9944,7 @@
          {
           "DataTime": "2026-08-28T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -9992,7 +9992,7 @@
          {
           "DataTime": "2026-08-28T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -10022,13 +10022,13 @@
          {
           "DataTime": "2026-08-29T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-08-29T05:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -10592,8 +10592,8 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
@@ -10606,8 +10606,8 @@
          {
           "DataTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
@@ -10620,14 +10620,14 @@
          {
           "DataTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
           "DataTime": "2026-08-28T15:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "6",
+           "WindSpeed": "7",
            "BeaufortScale": "4"
           }
          },
@@ -11509,7 +11509,7 @@
           "StartTime": "2026-08-28T00:00:00+08:00",
           "EndTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度70至73%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27度。舒適。西南風 平均風速4-5級(每秒8公尺)。相對濕度70至73%。"
           }
          },
          {
@@ -11523,7 +11523,7 @@
           "StartTime": "2026-08-28T06:00:00+08:00",
           "EndTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至29度。舒適至悶熱。西南風 平均風速3-4級(每秒7公尺)。相對濕度77至80%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至29度。舒適至悶熱。西南風 平均風速4-5級(每秒8公尺)。相對濕度77至80%。"
           }
          },
          {
@@ -11537,14 +11537,14 @@
           "StartTime": "2026-08-28T12:00:00+08:00",
           "EndTime": "2026-08-28T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏33度。悶熱。西南風 平均風速3-4級(每秒7公尺)。相對濕度70至74%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏33度。悶熱。西南風 平均風速4-5級(每秒8公尺)。相對濕度70至74%。"
           }
          },
          {
           "StartTime": "2026-08-28T15:00:00+08:00",
           "EndTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏30至32度。悶熱。西南風 平均風速3-4級(每秒6公尺)。相對濕度74%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏30至32度。悶熱。西南風 平均風速3-4級(每秒7公尺)。相對濕度74%。"
           }
          },
          {
@@ -12768,7 +12768,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -12840,7 +12840,7 @@
          {
           "DataTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "35"
           }
          },
          {
@@ -12912,7 +12912,7 @@
          {
           "DataTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -12930,7 +12930,7 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -13569,8 +13569,8 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "1",
-           "BeaufortScale": "<= 1"
+           "WindSpeed": "2",
+           "BeaufortScale": "2"
           }
          },
          {
@@ -14486,7 +14486,7 @@
           "StartTime": "2026-08-29T03:00:00+08:00",
           "EndTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27度。舒適至悶熱。西南風 平均風速<= 1級(每秒1公尺)。相對濕度92至94%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27度。舒適至悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度92至94%。"
           }
          },
          {
@@ -15682,7 +15682,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -15718,7 +15718,7 @@
          {
           "DataTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -15736,7 +15736,7 @@
          {
           "DataTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -15760,25 +15760,25 @@
          {
           "DataTime": "2026-08-28T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-08-28T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "36"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-08-28T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-08-28T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
@@ -15796,19 +15796,19 @@
          {
           "DataTime": "2026-08-28T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-08-28T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -15832,7 +15832,7 @@
          {
           "DataTime": "2026-08-29T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -15850,13 +15850,13 @@
          {
           "DataTime": "2026-08-29T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-08-29T05:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -16441,7 +16441,7 @@
          {
           "DataTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "9",
+           "WindSpeed": "10",
            "BeaufortScale": "5"
           }
          },
@@ -16462,8 +16462,8 @@
          {
           "DataTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "6",
-           "BeaufortScale": "4"
+           "WindSpeed": "5",
+           "BeaufortScale": "3"
           }
          },
          {
@@ -17358,7 +17358,7 @@
           "StartTime": "2026-08-28T09:00:00+08:00",
           "EndTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏32至34度。悶熱。西南風 平均風速4-5級(每秒9公尺)。相對濕度70至74%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏32至34度。悶熱。西南風 平均風速4-5級(每秒10公尺)。相對濕度70至74%。"
           }
          },
          {
@@ -17379,7 +17379,7 @@
           "StartTime": "2026-08-28T18:00:00+08:00",
           "EndTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏30至31度。悶熱。偏南風 平均風速3-4級(每秒6公尺)。相對濕度75至76%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏30至31度。悶熱。偏南風 平均風速2-3級(每秒5公尺)。相對濕度75至76%。"
           }
          },
          {
@@ -18596,7 +18596,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -18608,13 +18608,13 @@
          {
           "DataTime": "2026-08-28T02:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -18710,13 +18710,13 @@
          {
           "DataTime": "2026-08-28T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-08-28T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -18758,13 +18758,13 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-08-29T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -18776,7 +18776,7 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -19334,14 +19334,14 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "6",
+           "WindSpeed": "7",
            "BeaufortScale": "4"
           }
          },
          {
           "DataTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "6",
+           "WindSpeed": "7",
            "BeaufortScale": "4"
           }
          },
@@ -19383,7 +19383,7 @@
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
+           "WindSpeed": "3",
            "BeaufortScale": "2"
           }
          },
@@ -19397,15 +19397,15 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -20251,14 +20251,14 @@
           "StartTime": "2026-08-28T00:00:00+08:00",
           "EndTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適。西南風 平均風速3-4級(每秒6公尺)。相對濕度55至60%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度55至60%。"
           }
          },
          {
           "StartTime": "2026-08-28T03:00:00+08:00",
           "EndTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。舒適。西南風 平均風速3-4級(每秒6公尺)。相對濕度58至63%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度58至63%。"
           }
          },
          {
@@ -20300,7 +20300,7 @@
           "StartTime": "2026-08-28T21:00:00+08:00",
           "EndTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至29度。悶熱。偏北風 平均風速1-2級(每秒2公尺)。相對濕度80至82%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至29度。悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度80至82%。"
           }
          },
          {
@@ -20314,14 +20314,14 @@
           "StartTime": "2026-08-29T03:00:00+08:00",
           "EndTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至27度。舒適。西南風 平均風速1-2級(每秒2公尺)。相對濕度89至91%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至27度。舒適。西南風 平均風速<= 1級(每秒1公尺)。相對濕度89至91%。"
           }
          },
          {
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度79至87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度79至87%。"
           }
          },
          {
@@ -21552,7 +21552,7 @@
          {
           "DataTime": "2026-08-28T07:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -21624,13 +21624,13 @@
          {
           "DataTime": "2026-08-28T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-08-28T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -21660,7 +21660,7 @@
          {
           "DataTime": "2026-08-29T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -21678,7 +21678,7 @@
          {
           "DataTime": "2026-08-29T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -22297,8 +22297,8 @@
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -22311,15 +22311,15 @@
          {
           "DataTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -23214,7 +23214,7 @@
           "StartTime": "2026-08-28T21:00:00+08:00",
           "EndTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適至悶熱。西北風 平均風速1-2級(每秒2公尺)。相對濕度81至83%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適至悶熱。西北風 平均風速<= 1級(每秒1公尺)。相對濕度81至83%。"
           }
          },
          {
@@ -23228,14 +23228,14 @@
           "StartTime": "2026-08-29T03:00:00+08:00",
           "EndTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26度。舒適。偏南風 平均風速1-2級(每秒2公尺)。相對濕度89%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26度。舒適。偏南風 平均風速<= 1級(每秒1公尺)。相對濕度89%。"
           }
          },
          {
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度77至85%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度77至85%。"
           }
          },
          {
@@ -24424,7 +24424,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -24448,13 +24448,13 @@
          {
           "DataTime": "2026-08-28T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-08-28T05:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -24598,7 +24598,7 @@
          {
           "DataTime": "2026-08-29T05:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -25176,8 +25176,8 @@
          {
           "DataTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "5",
-           "BeaufortScale": "3"
+           "WindSpeed": "6",
+           "BeaufortScale": "4"
           }
          },
          {
@@ -25232,8 +25232,8 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -26093,7 +26093,7 @@
           "StartTime": "2026-08-28T06:00:00+08:00",
           "EndTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。西南風 平均風速2-3級(每秒5公尺)。相對濕度78%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏26至29度。舒適至悶熱。西南風 平均風速3-4級(每秒6公尺)。相對濕度78%。"
           }
          },
          {
@@ -26149,7 +26149,7 @@
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至28度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度78至86%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至28度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度78至86%。"
           }
          },
          {
@@ -27338,7 +27338,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -27362,19 +27362,19 @@
          {
           "DataTime": "2026-08-28T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-08-28T05:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -27392,25 +27392,25 @@
          {
           "DataTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-28T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-28T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -27434,7 +27434,7 @@
          {
           "DataTime": "2026-08-28T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "36"
           }
          },
          {
@@ -27512,7 +27512,7 @@
          {
           "DataTime": "2026-08-29T05:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -28076,15 +28076,15 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
           "DataTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
-           "BeaufortScale": "4"
+           "WindSpeed": "8",
+           "BeaufortScale": "5"
           }
          },
          {
@@ -28097,7 +28097,7 @@
          {
           "DataTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "7",
+           "WindSpeed": "6",
            "BeaufortScale": "4"
           }
          },
@@ -28111,15 +28111,15 @@
          {
           "DataTime": "2026-08-28T15:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "5",
-           "BeaufortScale": "3"
+           "WindSpeed": "6",
+           "BeaufortScale": "4"
           }
          },
          {
           "DataTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "4",
-           "BeaufortScale": "3"
+           "WindSpeed": "3",
+           "BeaufortScale": "2"
           }
          },
          {
@@ -28146,8 +28146,8 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -28993,14 +28993,14 @@
           "StartTime": "2026-08-28T00:00:00+08:00",
           "EndTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度60至63%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28度。舒適。西南風 平均風速4-5級(每秒8公尺)。相對濕度60至63%。"
           }
          },
          {
           "StartTime": "2026-08-28T03:00:00+08:00",
           "EndTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適。西南風 平均風速3-4級(每秒7公尺)。相對濕度64至73%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適。西南風 平均風速4-5級(每秒8公尺)。相對濕度64至73%。"
           }
          },
          {
@@ -29014,7 +29014,7 @@
           "StartTime": "2026-08-28T09:00:00+08:00",
           "EndTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速3-4級(每秒7公尺)。相對濕度66至73%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速3-4級(每秒6公尺)。相對濕度66至73%。"
           }
          },
          {
@@ -29028,14 +29028,14 @@
           "StartTime": "2026-08-28T15:00:00+08:00",
           "EndTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速2-3級(每秒5公尺)。相對濕度75至76%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏31至33度。悶熱。西南風 平均風速3-4級(每秒6公尺)。相對濕度75至76%。"
           }
          },
          {
           "StartTime": "2026-08-28T18:00:00+08:00",
           "EndTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏29至30度。悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度76至77%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏29至30度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度76至77%。"
           }
          },
          {
@@ -29063,7 +29063,7 @@
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度78至86%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度78至86%。"
           }
          },
          {
@@ -30252,7 +30252,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -30264,13 +30264,13 @@
          {
           "DataTime": "2026-08-28T02:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "25"
           }
          },
          {
           "DataTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "25"
           }
          },
          {
@@ -30312,7 +30312,7 @@
          {
           "DataTime": "2026-08-28T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -30324,7 +30324,7 @@
          {
           "DataTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -30336,7 +30336,7 @@
          {
           "DataTime": "2026-08-28T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "34"
+           "ApparentTemperature": "33"
           }
          },
          {
@@ -30354,31 +30354,31 @@
          {
           "DataTime": "2026-08-28T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-08-28T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-08-28T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -30402,13 +30402,13 @@
          {
           "DataTime": "2026-08-29T01:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-08-29T02:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
@@ -30990,7 +30990,7 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "9",
+           "WindSpeed": "10",
            "BeaufortScale": "5"
           }
          },
@@ -31004,7 +31004,7 @@
          {
           "DataTime": "2026-08-28T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "9",
+           "WindSpeed": "10",
            "BeaufortScale": "5"
           }
          },
@@ -31039,8 +31039,8 @@
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "3",
-           "BeaufortScale": "2"
+           "WindSpeed": "5",
+           "BeaufortScale": "3"
           }
          },
          {
@@ -31907,7 +31907,7 @@
           "StartTime": "2026-08-28T00:00:00+08:00",
           "EndTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。舒適至悶熱。西南風 平均風速4-5級(每秒9公尺)。相對濕度77至79%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏28度。舒適至悶熱。西南風 平均風速4-5級(每秒10公尺)。相對濕度77至79%。"
           }
          },
          {
@@ -31921,7 +31921,7 @@
           "StartTime": "2026-08-28T06:00:00+08:00",
           "EndTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至30度。舒適至悶熱。西南風 平均風速4-5級(每秒9公尺)。相對濕度76至80%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至30度。舒適至悶熱。西南風 平均風速4-5級(每秒10公尺)。相對濕度76至80%。"
           }
          },
          {
@@ -31956,7 +31956,7 @@
           "StartTime": "2026-08-28T21:00:00+08:00",
           "EndTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適。偏南風 平均風速1-2級(每秒3公尺)。相對濕度81至87%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至28度。舒適。偏南風 平均風速2-3級(每秒5公尺)。相對濕度81至87%。"
           }
          },
          {
@@ -33232,7 +33232,7 @@
          {
           "DataTime": "2026-08-28T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -33262,7 +33262,7 @@
          {
           "DataTime": "2026-08-28T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -33274,43 +33274,43 @@
          {
           "DataTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-08-28T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-08-28T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-08-28T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-28T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -33946,21 +33946,21 @@
          {
           "DataTime": "2026-08-28T18:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "9",
+           "WindSpeed": "8",
            "BeaufortScale": "5"
           }
          },
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "5",
-           "BeaufortScale": "3"
+           "WindSpeed": "6",
+           "BeaufortScale": "4"
           }
          },
          {
           "DataTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "3",
+           "WindSpeed": "2",
            "BeaufortScale": "2"
           }
          },
@@ -33974,7 +33974,7 @@
          {
           "DataTime": "2026-08-29T06:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "3",
+           "WindSpeed": "2",
            "BeaufortScale": "2"
           }
          },
@@ -34863,21 +34863,21 @@
           "StartTime": "2026-08-28T18:00:00+08:00",
           "EndTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏29至30度。悶熱。西南風 平均風速4-5級(每秒9公尺)。相對濕度76%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏29至30度。悶熱。西南風 平均風速4-5級(每秒8公尺)。相對濕度76%。"
           }
          },
          {
           "StartTime": "2026-08-28T21:00:00+08:00",
           "EndTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至29度。悶熱。偏南風 平均風速2-3級(每秒5公尺)。相對濕度81至90%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28至29度。悶熱。偏南風 平均風速3-4級(每秒6公尺)。相對濕度81至90%。"
           }
          },
          {
           "StartTime": "2026-08-29T00:00:00+08:00",
           "EndTime": "2026-08-29T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒3公尺)。相對濕度91至94%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏28度。悶熱。偏南風 平均風速1-2級(每秒2公尺)。相對濕度91至94%。"
           }
          },
          {
@@ -34891,7 +34891,7 @@
           "StartTime": "2026-08-29T06:00:00+08:00",
           "EndTime": "2026-08-29T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至29度。舒適至悶熱。偏西風 平均風速1-2級(每秒3公尺)。相對濕度81至91%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏27至29度。舒適至悶熱。偏西風 平均風速1-2級(每秒2公尺)。相對濕度81至91%。"
           }
          },
          {
@@ -36140,7 +36140,7 @@
          {
           "DataTime": "2026-08-28T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "35"
+           "ApparentTemperature": "34"
           }
          },
          {
@@ -36206,7 +36206,7 @@
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -36248,7 +36248,7 @@
          {
           "DataTime": "2026-08-29T04:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "25"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -36818,8 +36818,8 @@
          {
           "DataTime": "2026-08-28T00:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "3",
-           "BeaufortScale": "2"
+           "WindSpeed": "4",
+           "BeaufortScale": "3"
           }
          },
          {
@@ -36839,7 +36839,7 @@
          {
           "DataTime": "2026-08-28T09:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
+           "WindSpeed": "3",
            "BeaufortScale": "2"
           }
          },
@@ -36867,8 +36867,8 @@
          {
           "DataTime": "2026-08-28T21:00:00+08:00",
           "ElementValue": {
-           "WindSpeed": "2",
-           "BeaufortScale": "2"
+           "WindSpeed": "1",
+           "BeaufortScale": "<= 1"
           }
          },
          {
@@ -37735,7 +37735,7 @@
           "StartTime": "2026-08-28T00:00:00+08:00",
           "EndTime": "2026-08-28T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏24度。舒適。西南風 平均風速1-2級(每秒3公尺)。相對濕度72至78%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏24度。舒適。西南風 平均風速2-3級(每秒4公尺)。相對濕度72至78%。"
           }
          },
          {
@@ -37756,7 +37756,7 @@
           "StartTime": "2026-08-28T09:00:00+08:00",
           "EndTime": "2026-08-28T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至32度。悶熱。西南風 平均風速1-2級(每秒2公尺)。相對濕度73至74%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至32度。悶熱。西南風 平均風速1-2級(每秒3公尺)。相對濕度73至74%。"
           }
          },
          {
@@ -37784,7 +37784,7 @@
           "StartTime": "2026-08-28T21:00:00+08:00",
           "EndTime": "2026-08-29T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏24至25度。舒適。西南風 平均風速1-2級(每秒2公尺)。相對濕度94至97%。"
+           "WeatherDescription": "多雲。降雨機率20%。溫度攝氏24至25度。舒適。西南風 平均風速<= 1級(每秒1公尺)。相對濕度94至97%。"
           }
          },
          {
