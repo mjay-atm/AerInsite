@@ -1,9 +1,9 @@
 {
  "cwaopendata": {
   "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
-  "Identifier": "4c2cd14e-52e0-4887-8172-b1990eed5cb7",
+  "Identifier": "f668ffc6-ff7f-4b56-8c7b-5e1526d9139e",
   "Sender": "weather@cwa.gov.tw",
-  "Sent": "2026-09-18T11:09:58+08:00",
+  "Sent": "2026-09-18T12:15:22+08:00",
   "Status": "Actual",
   "Scope": "Public",
   "MsgType": "Issue",
@@ -72,7 +72,7 @@
      "StartTime": "2026-09-18T12:00:00+08:00",
      "EndTime": "2026-09-22T12:00:00+08:00"
     },
-    "Update": "2026-09-18T11:09:58+08:00"
+    "Update": "2026-09-18T12:15:22+08:00"
    },
    "Locations": {
     "LocationsName": "桃園市",
@@ -209,61 +209,61 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -281,7 +281,7 @@
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -305,7 +305,7 @@
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -1232,73 +1232,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -1310,13 +1310,13 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -1334,7 +1334,7 @@
          {
           "DataTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
@@ -1614,15 +1614,15 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -1635,22 +1635,22 @@
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -1663,7 +1663,7 @@
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -1691,14 +1691,14 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -2809,35 +2809,35 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度71至81%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至26度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度71至81%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度56至66%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至31度。舒適至悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度56至66%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31度。舒適至悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度53至55%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏32度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度53至55%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至30度。舒適。偏北風 平均風速1-2級(每秒3公尺)。相對濕度56至61%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30至32度。舒適至悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度56至61%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度67至79%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏27至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度67至79%。"
           }
          },
          {
@@ -2851,7 +2851,7 @@
           "StartTime": "2026-09-20T00:00:00+08:00",
           "EndTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度84%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度84%。"
           }
          },
          {
@@ -3123,73 +3123,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -3207,13 +3207,13 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -4146,73 +4146,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -4224,13 +4224,13 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
@@ -4528,22 +4528,22 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -4556,21 +4556,21 @@
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -4584,14 +4584,14 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -5723,42 +5723,42 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至25度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度66至77%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至26度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度66至77%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至29度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度58至63%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度58至63%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至30度。舒適至悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度61至66%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31度。悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度61至66%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適。偏北風 平均風速2-3級(每秒4公尺)。相對濕度66至67%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至31度。舒適至悶熱。偏北風 平均風速2-3級(每秒4公尺)。相對濕度66至67%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度70至76%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度70至76%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至26度。舒適。偏東風 平均風速1-2級(每秒3公尺)。相對濕度77至79%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。偏東風 平均風速1-2級(每秒3公尺)。相對濕度77至79%。"
           }
          },
          {
@@ -6037,73 +6037,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -6115,13 +6115,13 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -7060,85 +7060,85 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "35"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
@@ -7150,13 +7150,13 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -7421,42 +7421,42 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -7470,21 +7470,21 @@
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -7498,14 +7498,14 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -7526,14 +7526,14 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -8637,42 +8637,42 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏22至25度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度70至78%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏22至26度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度70至78%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度57至66%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至31度。舒適至悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度57至66%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30度。舒適至悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度58至59%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏32度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度58至59%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至30度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度60至64%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至32度。舒適至悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度60至64%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度68至78%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至28度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度68至78%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度74至77%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度74至77%。"
           }
          },
          {
@@ -8951,67 +8951,67 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -9023,7 +9023,7 @@
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -9047,7 +9047,7 @@
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "Temperature": "24"
+           "Temperature": "25"
           }
          },
          {
@@ -9980,97 +9980,97 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "25"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "25"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "25"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -10342,14 +10342,14 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -10363,15 +10363,15 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -10384,21 +10384,21 @@
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -10433,7 +10433,7 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -11551,35 +11551,35 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至25度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度69至80%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至26度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度69至80%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至29度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度63至67%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度63至67%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏29度。舒適至悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度66至73%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏30至31度。悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度66至73%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至29度。舒適。東北風 平均風速2-3級(每秒5公尺)。相對濕度73至74%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至30度。舒適至悶熱。東北風 平均風速2-3級(每秒5公尺)。相對濕度73至74%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏25至26度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度76至80%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至27度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度76至80%。"
           }
          },
          {
@@ -11593,7 +11593,7 @@
           "StartTime": "2026-09-20T00:00:00+08:00",
           "EndTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏24度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度82%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度82%。"
           }
          },
          {
@@ -11865,67 +11865,67 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
@@ -11955,13 +11955,13 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -12888,97 +12888,97 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -13256,14 +13256,14 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -13277,15 +13277,15 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -13305,8 +13305,8 @@
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -13319,7 +13319,7 @@
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -13354,14 +13354,14 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -14465,49 +14465,49 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏24至25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度71至80%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏24至26度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度71至80%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至29度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度60至67%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至30度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度60至67%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至30度。舒適至悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度62至67%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31度。悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度62至67%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適至悶熱。偏北風 平均風速2-3級(每秒4公尺)。相對濕度69至72%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至30度。舒適至悶熱。偏北風 平均風速2-3級(每秒4公尺)。相對濕度69至72%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度75至81%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度75至81%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度83至85%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度83至85%。"
           }
          },
          {
           "StartTime": "2026-09-20T00:00:00+08:00",
           "EndTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度86%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度86%。"
           }
          },
          {
@@ -14785,13 +14785,13 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
@@ -14803,19 +14803,19 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
@@ -14845,7 +14845,7 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -14875,7 +14875,7 @@
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -15826,25 +15826,25 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
@@ -16191,7 +16191,7 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "27",
+           "ComfortIndex": "28",
            "ComfortIndexDescription": "悶熱"
           }
          },
@@ -16226,8 +16226,8 @@
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -16240,7 +16240,7 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -17386,21 +17386,21 @@
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至29度。舒適至悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度73至74%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至29度。舒適至悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度73至74%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度77至83%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30度。悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度77至83%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適至悶熱。東北風 平均風速2-3級(每秒5公尺)。相對濕度82%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。悶熱。東北風 平均風速2-3級(每秒5公尺)。相對濕度82%。"
           }
          },
          {
@@ -17421,7 +17421,7 @@
           "StartTime": "2026-09-20T00:00:00+08:00",
           "EndTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速1-2級(每秒3公尺)。相對濕度89%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。偏東風 平均風速1-2級(每秒3公尺)。相對濕度89%。"
           }
          },
          {
@@ -17693,67 +17693,67 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "31"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
@@ -17765,7 +17765,7 @@
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -17783,13 +17783,13 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -18716,73 +18716,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "33"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -18794,7 +18794,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -18818,7 +18818,7 @@
          {
           "DataTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
@@ -19098,8 +19098,8 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -19119,22 +19119,22 @@
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -19147,7 +19147,7 @@
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -19175,21 +19175,21 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -20293,49 +20293,49 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度74至83%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏23至26度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度74至83%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度59至69%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至31度。舒適至悶熱。偏東風 平均風速1-2級(每秒2公尺)。相對濕度59至69%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30至31度。舒適至悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度54至57%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏32度。悶熱。東北風 平均風速1-2級(每秒2公尺)。相對濕度54至57%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至30度。舒適。偏北風 平均風速1-2級(每秒3公尺)。相對濕度57至63%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30至32度。舒適至悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度57至63%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度69至81%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏27至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度69至81%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度82至84%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度82至84%。"
           }
          },
          {
           "StartTime": "2026-09-20T00:00:00+08:00",
           "EndTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度86%。"
+           "WeatherDescription": "短暫陣雨。降雨機率30%。溫度攝氏26度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度86%。"
           }
          },
          {
@@ -20619,61 +20619,61 @@
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "30"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -20685,7 +20685,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -21630,73 +21630,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -21720,19 +21720,19 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -21998,14 +21998,14 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -22019,29 +22019,29 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -22061,7 +22061,7 @@
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -22089,7 +22089,7 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -22103,7 +22103,7 @@
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -23214,35 +23214,35 @@
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度55至65%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至31度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度55至65%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度55至56%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31至32度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度55至56%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至30度。舒適。偏北風 平均風速1-2級(每秒3公尺)。相對濕度57至60%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至31度。舒適至悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度57至60%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度65至76%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度65至76%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度73至75%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至26度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度73至75%。"
           }
          },
          {
@@ -23527,61 +23527,61 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -23593,7 +23593,7 @@
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -23605,13 +23605,13 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "Temperature": "24"
+           "Temperature": "25"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "24"
+           "Temperature": "25"
           }
          },
          {
@@ -24544,91 +24544,91 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "25"
+           "ApparentTemperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -24926,42 +24926,42 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -24975,7 +24975,7 @@
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -24996,7 +24996,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "23",
+           "ComfortIndex": "24",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -26128,35 +26128,35 @@
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至29度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度57至66%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度57至66%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度59至65%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31度。悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度59至65%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至29度。舒適。偏北風 平均風速1-2級(每秒3公尺)。相對濕度65至66%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至30度。舒適至悶熱。偏北風 平均風速1-2級(每秒3公尺)。相對濕度65至66%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏25至26度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度70至78%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度70至78%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏24至25度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度77%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速1-2級(每秒2公尺)。相對濕度77%。"
           }
          },
          {
@@ -26441,67 +26441,67 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -26513,19 +26513,19 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -26537,7 +26537,7 @@
          {
           "DataTime": "2026-09-20T03:00:00+08:00",
           "ElementValue": {
-           "Temperature": "24"
+           "Temperature": "25"
           }
          },
          {
@@ -27458,85 +27458,85 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
@@ -27833,56 +27833,56 @@
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
-          "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
-          }
-         },
-         {
-          "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
            "ComfortIndex": "27",
            "ComfortIndexDescription": "悶熱"
           }
          },
          {
+          "DataTime": "2026-09-19T14:00:00+08:00",
+          "ElementValue": {
+           "ComfortIndex": "28",
+           "ComfortIndexDescription": "悶熱"
+          }
+         },
+         {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -27896,14 +27896,14 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -29042,35 +29042,35 @@
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至29度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度61至65%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度61至65%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。舒適至悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度64至71%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏31度。悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度64至71%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏28至29度。舒適。偏北風 平均風速2-3級(每秒4公尺)。相對濕度70%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29至31度。舒適至悶熱。偏北風 平均風速2-3級(每秒4公尺)。相對濕度70%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至27度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度72至77%。"
+           "WeatherDescription": "晴。降雨機率10%。溫度攝氏26至28度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度72至77%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速1-2級(每秒3公尺)。相對濕度77至79%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26度。舒適。偏東風 平均風速1-2級(每秒3公尺)。相對濕度77至79%。"
           }
          },
          {
@@ -29084,7 +29084,7 @@
           "StartTime": "2026-09-20T03:00:00+08:00",
           "EndTime": "2026-09-20T06:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏24度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。東北風 平均風速1-2級(每秒2公尺)。相對濕度87%。"
           }
          },
          {
@@ -29355,61 +29355,61 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -29421,13 +29421,13 @@
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "25"
+           "Temperature": "26"
           }
          },
          {
@@ -30372,73 +30372,73 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
@@ -30450,7 +30450,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -30462,13 +30462,13 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
           "DataTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -30754,15 +30754,15 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -30782,8 +30782,8 @@
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -30796,7 +30796,7 @@
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -30810,7 +30810,7 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -31956,35 +31956,35 @@
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至29度。舒適。東北風 平均風速1-2級(每秒3公尺)。相對濕度68至69%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至30度。舒適至悶熱。東北風 平均風速1-2級(每秒3公尺)。相對濕度68至69%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏29度。舒適至悶熱。東北風 平均風速2-3級(每秒5公尺)。相對濕度70至73%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏30度。悶熱。東北風 平均風速2-3級(每秒5公尺)。相對濕度70至73%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至28度。舒適。東北風 平均風速2-3級(每秒5公尺)。相對濕度75至78%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至29度。舒適至悶熱。東北風 平均風速2-3級(每秒5公尺)。相對濕度75至78%。"
           }
          },
          {
           "StartTime": "2026-09-19T18:00:00+08:00",
           "EndTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏25至26度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度79至82%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至27度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度79至82%。"
           }
          },
          {
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25度。舒適。偏東風 平均風速2-3級(每秒4公尺)。相對濕度82至83%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏25至26度。舒適。偏東風 平均風速2-3級(每秒4公尺)。相對濕度82至83%。"
           }
          },
          {
@@ -32281,31 +32281,31 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
@@ -32317,7 +32317,7 @@
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
@@ -33310,7 +33310,7 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
@@ -33328,13 +33328,13 @@
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
@@ -33364,7 +33364,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -33376,7 +33376,7 @@
          {
           "DataTime": "2026-09-19T23:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -33668,8 +33668,8 @@
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -33703,8 +33703,8 @@
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
@@ -34870,21 +34870,21 @@
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至28度。舒適。東北風 平均風速2-3級(每秒4公尺)。相對濕度73至76%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至29度。舒適至悶熱。東北風 平均風速2-3級(每秒4公尺)。相對濕度73至76%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28度。悶熱。東北風 平均風速3-4級(每秒6公尺)。相對濕度78至81%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏29度。悶熱。東北風 平均風速3-4級(每秒6公尺)。相對濕度78至81%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至28度。舒適至悶熱。東北風 平均風速3-4級(每秒7公尺)。相對濕度82%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏28至29度。舒適至悶熱。東北風 平均風速3-4級(每秒7公尺)。相對濕度82%。"
           }
          },
          {
@@ -35177,61 +35177,61 @@
          {
           "DataTime": "2026-09-19T08:00:00+08:00",
           "ElementValue": {
-           "Temperature": "23"
+           "Temperature": "24"
           }
          },
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "Temperature": "29"
+           "Temperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "Temperature": "28"
+           "Temperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "Temperature": "27"
+           "Temperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "Temperature": "26"
+           "Temperature": "27"
           }
          },
          {
@@ -35243,7 +35243,7 @@
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "Temperature": "24"
+           "Temperature": "25"
           }
          },
          {
@@ -35255,7 +35255,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "Temperature": "23"
+           "Temperature": "24"
           }
          },
          {
@@ -36206,73 +36206,73 @@
          {
           "DataTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "28"
+           "ApparentTemperature": "29"
           }
          },
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T11:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "32"
+           "ApparentTemperature": "34"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "33"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "31"
+           "ApparentTemperature": "32"
           }
          },
          {
           "DataTime": "2026-09-19T16:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "30"
+           "ApparentTemperature": "31"
           }
          },
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "29"
+           "ApparentTemperature": "30"
           }
          },
          {
           "DataTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T19:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "27"
+           "ApparentTemperature": "28"
           }
          },
          {
           "DataTime": "2026-09-19T20:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "26"
+           "ApparentTemperature": "27"
           }
          },
          {
@@ -36284,7 +36284,7 @@
          {
           "DataTime": "2026-09-19T22:00:00+08:00",
           "ElementValue": {
-           "ApparentTemperature": "25"
+           "ApparentTemperature": "26"
           }
          },
          {
@@ -36575,7 +36575,7 @@
          {
           "DataTime": "2026-09-19T10:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -36589,28 +36589,28 @@
          {
           "DataTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T13:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T14:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "26",
-           "ComfortIndexDescription": "舒適"
+           "ComfortIndex": "27",
+           "ComfortIndexDescription": "悶熱"
           }
          },
          {
           "DataTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "25",
+           "ComfortIndex": "26",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -36624,7 +36624,7 @@
          {
           "DataTime": "2026-09-19T17:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "24",
+           "ComfortIndex": "25",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -36652,7 +36652,7 @@
          {
           "DataTime": "2026-09-19T21:00:00+08:00",
           "ElementValue": {
-           "ComfortIndex": "22",
+           "ComfortIndex": "23",
            "ComfortIndexDescription": "舒適"
           }
          },
@@ -37777,28 +37777,28 @@
           "StartTime": "2026-09-19T06:00:00+08:00",
           "EndTime": "2026-09-19T09:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏20至23度。稍有寒意至舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度71至74%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏20至24度。稍有寒意至舒適。東南風 平均風速<= 1級(每秒1公尺)。相對濕度71至74%。"
           }
          },
          {
           "StartTime": "2026-09-19T09:00:00+08:00",
           "EndTime": "2026-09-19T12:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率0%。溫度攝氏26至28度。舒適。東北風 平均風速<= 1級(每秒1公尺)。相對濕度66至71%。"
+           "WeatherDescription": "晴。降雨機率0%。溫度攝氏27至30度。舒適。東北風 平均風速<= 1級(每秒1公尺)。相對濕度66至71%。"
           }
          },
          {
           "StartTime": "2026-09-19T12:00:00+08:00",
           "EndTime": "2026-09-19T15:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏29度。舒適。東北風 平均風速<= 1級(每秒1公尺)。相對濕度66%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏30至31度。悶熱。東北風 平均風速<= 1級(每秒1公尺)。相對濕度66%。"
           }
          },
          {
           "StartTime": "2026-09-19T15:00:00+08:00",
           "EndTime": "2026-09-19T18:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏26至28度。舒適。東北風 平均風速<= 1級(每秒1公尺)。相對濕度69至76%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏27至29度。舒適。東北風 平均風速<= 1級(每秒1公尺)。相對濕度69至76%。"
           }
          },
          {
@@ -37812,7 +37812,7 @@
           "StartTime": "2026-09-19T21:00:00+08:00",
           "EndTime": "2026-09-20T00:00:00+08:00",
           "ElementValue": {
-           "WeatherDescription": "晴。降雨機率20%。溫度攝氏23度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度86至87%。"
+           "WeatherDescription": "晴。降雨機率20%。溫度攝氏23至24度。舒適。偏東風 平均風速<= 1級(每秒1公尺)。相對濕度86至87%。"
           }
          },
          {
